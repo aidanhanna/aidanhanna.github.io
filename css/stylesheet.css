@@ -5,18 +5,32 @@ html {
 h1 {
   color: #1F75FF;
   
-  font-size: 30px;
+  font-size: 50px;
+}
+
+.button {
+  display: inline-block;
+  
+  color: #DDDDDD;
+  background-color: #1F75FF;
+  
+  font-size: 40px;
+  
+  text-align: center;
+  padding = 20px;
+  border: 2px solid #1155DD;
+  margin: 0 auto;
 }
 
 .banner {
   height: 400px;
   width: 100%;
-  color: #FFFFFF;
+  color: #DDDDDD;
   background-color: #1F75FF;
   
   font-size: 100px;
   
-  text-align: justify;
+  text-align: center;
   padding = 20px;
   margin: 0 auto;
 }
