@@ -23,14 +23,12 @@ h1 {
 }
 
 .banner {
-  height: 400px;
-  width: 100%;
   color: #DDDDDD;
   background-color: #1F75FF;
   
   font-size: 100px;
   
   text-align: center;
-  padding = 20px;
+  padding = 150px;
   margin: 0 auto;
 }
