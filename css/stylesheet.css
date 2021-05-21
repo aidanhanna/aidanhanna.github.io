@@ -9,6 +9,8 @@ h1 {
 }
 
 .banner {
+  height: 400px;
+  width: 100%;
   color: #FFFFFF;
   background-color: #1F75FF;
   
