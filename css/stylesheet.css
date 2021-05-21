@@ -2,6 +2,12 @@ html {
   font-family: sans-serif;
 }
 
+h1 {
+  color: #1F75FF;
+  
+  font-size: 30px;
+}
+
 .banner {
   color: #FFFFFF;
   background-color: #1F75FF;
@@ -9,6 +15,6 @@ html {
   font-size: 100px;
   
   text-align: justify;
-  padding = 10px;
+  padding = 20px;
   margin: 0 auto;
 }
