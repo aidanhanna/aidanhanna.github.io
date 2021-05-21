@@ -1,4 +1,11 @@
-h1 {
+.heading {
   color: #FFFFFF;
   background-color: #1F75FF;
+  
+  font-family: 'Verdana', sans-serif;
+  font-size: 50px;
+  
+  
+  padding = 10px;
+  margin: 0 auto;
 }
