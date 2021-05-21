@@ -6,8 +6,9 @@ html {
   color: #FFFFFF;
   background-color: #1F75FF;
   
-  font-size: 50px;
+  font-size: 100px;
   
+  text-align: justify;
   padding = 10px;
   margin: 0 auto;
 }
