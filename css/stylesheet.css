@@ -32,3 +32,19 @@ h1 {
   padding = 150px;
   margin: 0 auto;
 }
+
+.banner-text {
+  position: absolute;
+  top: 350px;
+  
+  color: #F0F0F0;
+  background-color: #209EFF;
+  
+  font-size: 100px;
+  
+  text-align: center;
+}
+
+.banner-image {
+  position: relative;
+}
