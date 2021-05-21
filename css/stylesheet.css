@@ -34,11 +34,11 @@ h1 {
 }
 
 .banner-text {
+  display: inline;
   position: absolute;
   top: 350px;
   
   color: #F0F0F0;
-  background-color: #209EFF;
   
   font-size: 100px;
   
