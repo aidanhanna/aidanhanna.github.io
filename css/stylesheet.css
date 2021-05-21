@@ -11,20 +11,20 @@ h1 {
 .header-button {
   display: inline-block;
   
-  color: #DDDDDD;
-  background-color: #1F75FF;
+  color: #F0F0F0;
+  background-color: #209EFF;
   
   font-size: 40px;
   
   text-align: center;
   padding = 20px;
   border: 2px solid #1155DD;
-  margin: 0 auto;
+  margin: 0px 0px 5px;
 }
 
 .banner {
-  color: #DDDDDD;
-  background-color: #1F75FF;
+  color: #F0F0F0;
+  background-color: #209EFF;
   
   font-size: 100px;
   
