@@ -3,7 +3,7 @@ html {
 }
 
 h1 {
-  color: #1F75FF;
+  color: #FF0000;
   
   font-size: 50px;
 }
@@ -14,12 +14,12 @@ h1 {
   color: #F0F0F0;
   background-color: #209EFF;
   
-  font-size: 40px;
+  font-size: 20px;
   
   text-align: center;
   padding = 20px;
   border: 2px solid #1155DD;
-  margin: 0px 0px 5px;
+  margin: 0px 0px 20px 0px;
 }
 
 .banner {
