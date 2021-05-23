@@ -8,6 +8,10 @@ h1 {
   font-size: 50px;
 }
 
+div {
+  width: 100%;
+}
+
 .header-button {
   display: inline-block;
   
@@ -46,5 +50,5 @@ h1 {
 
 .banner-image {
   position: relative;
-  max-width: 100%
+  max-width: 100%;
 }
