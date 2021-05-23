@@ -40,6 +40,7 @@ div {
 .banner-text {
   position: absolute;
   top: 150px;
+  left: 50%
   
   color: #F0F0F0;
   
