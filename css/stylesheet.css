@@ -34,9 +34,8 @@ h1 {
 }
 
 .banner-text {
-  display: inline;
   position: absolute;
-  top: 350px;
+  top: 150px;
   
   color: #F0F0F0;
   
