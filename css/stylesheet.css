@@ -28,7 +28,9 @@ div {
 
 .banner {
   color: #F0F0F0;
-  background-color: #209EFF;
+  background-image: './images/OkayishBackground.png;
+  max-width: 100%;
+  height: auto
   
   font-size: 100px;
   
