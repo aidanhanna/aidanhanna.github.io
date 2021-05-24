@@ -41,9 +41,8 @@ div {
 
 .banner-text {
   position: absolute;
-  top: 150px;
+  top: -250px;
   left: 45%;
-  /*transform: translate(-50%, -50%);*/
   
   color: #F0F0F0;
   
