@@ -30,7 +30,7 @@ div {
   color: #F0F0F0;
   background-image: './images/OkayishBackground.png;
   max-width: 100%;
-  height: auto
+  height: auto;
   
   font-size: 100px;
   
@@ -55,4 +55,5 @@ div {
 .banner-image {
   position: relative;
   max-width: 100%;
+  height: auto;
 }
