@@ -28,7 +28,7 @@ div {
 
 .banner {
   color: #F0F0F0;
-  background-image: './images/OkayishBackground.png;
+  background-image: './images/OkayishBackground.png';
   max-width: 100%;
   height: auto;
   
@@ -45,8 +45,6 @@ div {
   color: #F0F0F0;
   
   font-size: 100px;
-  
-  text-align: center;
 }
 
 .banner-image {
