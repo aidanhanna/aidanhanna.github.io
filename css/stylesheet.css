@@ -39,6 +39,13 @@ div {
   margin: 0 auto;
 }
 
+.image-banner {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
 .banner-text {
   color: #F0F0F0;
   
