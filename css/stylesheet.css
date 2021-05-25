@@ -43,6 +43,7 @@ div {
 .image-banner {
   position: relative;
   text-align: center;
+  max-width: 100%;
 }
 
 /* Centered text */
@@ -57,6 +58,6 @@ div {
 }
 
 .banner-image {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
