@@ -43,14 +43,17 @@ div {
 .image-banner {
   position: relative;
   text-align: center;
-  color: white;
 }
+
 /* Centered text */
 .banner-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
+  color: #F0F0F0;
+  font-size: 100px;
 }
 /*
 .image-banner {
@@ -61,14 +64,6 @@ div {
 }
 
 .banner-text {
-  color: #F0F0F0;
-  
-  font-size: 100px;
 }
 
-.banner-image {
-  position: relative;
-  max-width: 100%;
-  height: auto;
-}
-*/
+
