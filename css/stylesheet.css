@@ -54,7 +54,7 @@ div {
   transform: translate(-50%, 0%);
   
   color: #F0F0F0;
-  font-size: 10vw;
+  font-size: min(10vw, 200px);
 }
 
 .banner-image {
