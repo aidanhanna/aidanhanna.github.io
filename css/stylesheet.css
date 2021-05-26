@@ -49,7 +49,7 @@ div {
 /* Centered text */
 .banner-text {
   position: absolute;
-  top: min(2.5vw, 50px);
+  top: min(3vw, 50px);
   left: 50%;
   transform: translate(-50%, 0%);
   
