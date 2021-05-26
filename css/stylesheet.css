@@ -55,6 +55,9 @@ div {
   
   color: #F0F0F0;
   font-size: min(10vw, 200px);
+  
+  padding: 0px;
+  margin: 0px;
 }
 
 .banner-image {
