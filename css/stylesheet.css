@@ -50,6 +50,7 @@ div {
 .banner-text {
   position: absolute;
   top: min(3vw, 50px);
+  
   left: 50%;
   transform: translate(-50%, 0%);
   
