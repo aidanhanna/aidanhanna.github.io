@@ -1,5 +1,8 @@
 html {
   font-family: sans-serif;
+  
+  padding: 0px;
+  margin: 0px;
 }
 
 h1 {
@@ -61,9 +64,6 @@ div {
   
   color: #F0F0F0;
   font-size: min(10vw, 200px);
-  
-  padding: 0px;
-  margin: 0px;
 }
 
 .banner-image {
