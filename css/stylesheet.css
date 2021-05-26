@@ -25,6 +25,7 @@ div {
   margin: 0px;
 }
 
+/* Old banner style 
 .banner {
   color: #F0F0F0;
   background-image: './images/OkayishBackground.png';
@@ -37,6 +38,7 @@ div {
   padding = 150px;
   margin: 0 auto;
 }
+*/
 
 /* Container holding the image and the text */
 .image-banner {
@@ -44,6 +46,9 @@ div {
   text-align: center;
   max-width: 100%;
   background-color: #3282C8;
+  
+  padding: 0px;
+  margin: 0px;
 }
 
 /* Centered text */
