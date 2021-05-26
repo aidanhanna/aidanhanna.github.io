@@ -57,7 +57,7 @@ div {
 /* Centered text */
 .banner-text {
   position: absolute;
-  top: min(5vw, 50px);
+  top: min(4vw, 50px);
   
   left: 50%;
   transform: translate(-50%, 0%);
