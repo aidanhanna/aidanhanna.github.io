@@ -11,6 +11,15 @@ h1 {
   font-size: 50px;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #555555;
+    cursor: pointer;
+}
+
 /* Container holding the image and the text */
 .image-banner {
   position: relative;
