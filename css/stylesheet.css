@@ -61,6 +61,7 @@ div {
 .button-bar {
   background-color: #000000;
   background-color: #E0E0E0;
+  width: 100%;
 }
 
 .header-button {
