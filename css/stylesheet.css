@@ -50,13 +50,13 @@ h1 {
   display: inline-block;
   
   color: #F0F0F0;
-  background-color: #152EBB;
+  background-color: #E0E0E0;
   
   font-size: 50px;
   
   text-align: center;
   padding = 100px;
-  border-left: 2px solid #888888;
+  border-top: 2px solid #888888;
   border-right: 2px solid #888888;
-  margin: 0px;
+  border-bottom: 2px solid #888888;
 }
