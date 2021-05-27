@@ -47,9 +47,9 @@ h1 {
 }
 
 
-/*********************\
-| CODE FOR BUTTON BAR |
-\*********************/
+/**********************\
+| FORMAT OF BUTTON BAR |
+\**********************/
 
 .button-bar {
   background-color: #E0E0E0;
@@ -59,6 +59,8 @@ h1 {
 
 .header-button {
   display: inline-block;
+  height: 60px;
+  width: auto;
   
   color: #222222;
   background-color: #E0E0E0;
