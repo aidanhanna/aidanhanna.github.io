@@ -40,7 +40,6 @@ h1 {
 }
 
 .button-bar {
-  background-color: #000000;
   background-color: #E0E0E0;
   max-width: 100%;
   height: auto;
@@ -49,7 +48,7 @@ h1 {
 .header-button {
   display: inline-block;
   
-  color: #F0F0F0;
+  color: #222222;
   background-color: #E0E0E0;
   
   font-size: 50px;
