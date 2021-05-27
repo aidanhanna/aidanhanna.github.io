@@ -1,3 +1,7 @@
+/*****************\
+| RESETS DEFAULTS |
+\*****************/
+
 html, body, div {
   font-family: sans-serif;
   font-size: 0px;
@@ -11,16 +15,11 @@ h1 {
   font-size: 50px;
 }
 
-a {
-    text-decoration: none !important;
-}
 
-a:hover {
-    color: #555555;
-    cursor: pointer;
-}
+/******************\
+| FORMAT OF BANNER |
+\******************/
 
-/* Container holding the image and the text */
 .image-banner {
   position: relative;
   text-align: center;
@@ -31,7 +30,6 @@ a:hover {
   margin: 0px;
 }
 
-/* Centered text */
 .banner-text {
   position: absolute;
   top: 2.5vw;
@@ -48,6 +46,11 @@ a:hover {
   height: auto;
 }
 
+
+/*********************\
+| CODE FOR BUTTON BAR |
+\*********************/
+
 .button-bar {
   background-color: #E0E0E0;
   max-width: 100%;
@@ -61,10 +64,16 @@ a:hover {
   background-color: #E0E0E0;
   
   font-size: 50px;
+  text-decoration: none !important;
   
   text-align: center;
   padding = 100px;
   border-top: 2px solid #888888;
   border-right: 2px solid #888888;
   border-bottom: 2px solid #888888;
+}
+
+.header-button:hover {
+  color: #555555;
+  cursor: pointer;
 }
