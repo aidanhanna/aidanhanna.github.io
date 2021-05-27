@@ -11,25 +11,6 @@ h1 {
   font-size: 50px;
 }
 
-div {
-  width: 100%;
-}
-
-/* Old banner style 
-.banner {
-  color: #F0F0F0;
-  background-image: './images/OkayishBackground.png';
-  max-width: 100%;
-  height: auto;
-  
-  font-size: 100px;
-  
-  text-align: center;
-  padding = 150px;
-  margin: 0 auto;
-}
-*/
-
 /* Container holding the image and the text */
 .image-banner {
   position: relative;
@@ -61,7 +42,8 @@ div {
 .button-bar {
   background-color: #000000;
   background-color: #E0E0E0;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .header-button {
