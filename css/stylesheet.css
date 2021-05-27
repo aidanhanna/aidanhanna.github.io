@@ -59,6 +59,7 @@ h1 {
 
 .header-button {
   display: inline-block;
+  float: left;
   height: 60px;
   width: auto;
   
