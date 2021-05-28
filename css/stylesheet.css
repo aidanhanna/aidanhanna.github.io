@@ -28,12 +28,12 @@ html, body, div {
 .banner-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 10vw;
   left: 50%;
   transform: translate(-50%, -50%);
   
   color: #F0F0F0;
-  font-size: min(10vw, 200px);
+  font-size: 10vw;
 }
 
 .banner-image {
