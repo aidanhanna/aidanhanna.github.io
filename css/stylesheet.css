@@ -52,21 +52,20 @@ h1 {
 \**********************/
 
 .button-bar {
-  background-color: #E0E0E0;
   width: 100vw;
-  height: auto;
+  height: 3.75vw;
 }
 
 .header-button {
   display: inline-block;
   float: left;
-  height: 80px;
+  height: 3.75vw;
   width: auto;
   
   color: #333333;
   background-color: #E0E0E0;
   
-  font-size: 65px;
+  font-size: 3vw;
   text-decoration: none !important;
   
   text-align: center;
