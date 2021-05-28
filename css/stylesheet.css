@@ -50,6 +50,12 @@ html, body, div {
   position: relative;
   width: 100vw;
   height: auto;
+  
+  background-image: url('../images/ButtonFade.png');
+  background-position: center;
+  background-repeat: repeat-y;
+  position: relative;
+  
   overflow: hidden;
 }
 
@@ -63,7 +69,6 @@ html, body, div {
   background-image: url('../images/ButtonFade.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   
   font-size: 45px;
