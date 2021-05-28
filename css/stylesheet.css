@@ -67,7 +67,6 @@ html, body, div {
   
   color: #333333;
   background-image: url('./images/ButtonFade.png');
-  background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +78,7 @@ html, body, div {
   text-align: center;
   padding = 100px;
   border-top: 2px solid #888888;
-  border-right: 2px solid #888888;
+  border-left: 2px solid #888888;
   border-bottom: 2px solid #888888;
 }
 
