@@ -50,12 +50,13 @@ html, body, div {
   position: relative;
   width: 100vw;
   height: auto;
+  overflow: hidden;
 }
 
 .header-button {
   display: inline-block;
   float: left;
-  height: 60px;
+  height: 66px;
   width: auto;
   
   color: #333333;
@@ -69,14 +70,10 @@ html, body, div {
   text-decoration: none !important;
   
   text-align: center;
-  padding: 1rem;
-  border-top: 2px solid #888888;
-  border-left: 2px solid #888888;
-  border-bottom: 2px solid #888888;
 }
 
 .filler-button {
-  width: 100%;
+  /*width: 100%*/
 }
 
 .header-button:hover {
