@@ -10,11 +10,6 @@ html, body, div {
   margin: 0px;
 }
 
-h1 {
-  color: #00FF00;
-  font-size: 50px;
-}
-
 
 /******************\
 | FORMAT OF BANNER |
@@ -63,6 +58,7 @@ h1 {
   width: auto;
   
   color: #333333;
+  background-image: url('./images/ButtonFade.png');
   background-color: #E0E0E0;
   
   font-size: 3vw;
