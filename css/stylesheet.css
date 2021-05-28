@@ -48,7 +48,9 @@ html, body, div {
 
 .button-bar {
   width: 100vw;
-  height: 3.75vw;
+  height: auto;
+  
+  background-image: url('./images/ButtonFade.png');
 }
 
 .header-button {
