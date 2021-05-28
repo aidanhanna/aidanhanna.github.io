@@ -50,10 +50,9 @@ html, body, div {
   width: 100vw;
   height: auto;
   
-  /*background-image: url('./images/ButtonFade.png');*/
-}
-.button-image {
-  height: 500px;
+  background-image: url('./images/ButtonFade.png');
+
+  height: 75px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
