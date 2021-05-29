@@ -78,7 +78,7 @@ html, body, div {
 }
 
 .filler-button {
-  /*width: 100%*/
+  width: 3px;
 }
 
 .header-button:hover {
