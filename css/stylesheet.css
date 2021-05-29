@@ -28,7 +28,7 @@ html, body, div {
 .banner-text {
   text-align: center;
   position: absolute;
-  top: 10vw;
+  top: 5vw;
   left: 50%;
   transform: translate(-50%, -50%);
   
@@ -52,7 +52,7 @@ html, body, div {
   height: auto;
   
   background-image: url('../images/ButtonFade.png');
-  background-position: center;
+  background-position: 0px 0px;
   background-repeat: repeat-y;
   position: relative;
   
@@ -67,7 +67,7 @@ html, body, div {
   
   color: #333333;
   background-image: url('../images/ButtonFade.png');
-  background-position: center;
+  background-position: 0px 0px;
   background-repeat: no-repeat;
   position: relative;
   
