@@ -85,3 +85,28 @@ html, body, div {
   color: #555555;
   cursor: pointer;
 }
+
+/*******************\
+| FORMAT OF CONTENT |
+\*******************/
+
+.main-body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.content-block {
+  display: inline-block;
+  margin: 5vw;
+  width: 40vw;
+}
+
+.subheading {
+  font-size: 50px;
+  color: #0A65C6;
+}
+
+.text-block: {
+  font-size: 25px;
+  color: #333333;
+}
