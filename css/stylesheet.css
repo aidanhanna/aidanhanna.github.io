@@ -97,16 +97,18 @@ html, body, div {
 
 .content-block {
   display: inline-block;
-  margin: 5vw;
-  width: 40vw;
+  margin: 5%;
+  width: 40%;
 }
 
 .subheading {
+  display: block;
   font-size: 50px;
   color: #0A65C6;
 }
 
 .text-block: {
+  display: block;
   font-size: 25px;
   color: #333333;
 }
