@@ -113,19 +113,19 @@ p {
 .content-block {
   display: inline-block;
   float: left;
-  margin-left: 100px;
-  margin-right: 100px;
-  width: 800px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 600px;
 }
 
 .subheading {
   display: block;
-  font-size: 50px;
+  font-size: 30px;
   color: #1171D6;
 }
 
 .text-block: {
   display: block;
-  font-size: 25px;
+  font-size: 18px;
   color: #333333;
 }
