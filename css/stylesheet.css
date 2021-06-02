@@ -112,6 +112,7 @@ p {
 
 .content-block {
   display: inline-block;
+  float: left;
   margin-left: 100px;
   margin-right: 100px;
   width: 800px;
