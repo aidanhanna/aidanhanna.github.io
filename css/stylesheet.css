@@ -10,6 +10,21 @@ html, body, div {
   margin: 0px;
 }
 
+/***************\
+| BACKUP STYLES |
+\***************/
+
+h1 {
+  display: block;
+  font-size: 80px;
+  color: #333333;
+}
+
+p {
+  display: block;
+  font-size: 25px;
+  color: #333333;
+}
 
 /******************\
 | FORMAT OF BANNER |
@@ -97,8 +112,9 @@ html, body, div {
 
 .content-block {
   display: inline-block;
-  margin: 5%;
-  width: 40%;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 800px;
 }
 
 .subheading {
