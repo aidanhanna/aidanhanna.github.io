@@ -91,6 +91,7 @@ p {
   text-decoration: none !important;
   
   text-align: center;
+  vertical-align: middle;
 }
 
 .filler-button {
