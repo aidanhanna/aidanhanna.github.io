@@ -43,6 +43,7 @@ p {
 .banner-text {
   text-align: center;
   position: absolute;
+  width: 100vw;
   top: 5vw;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -106,21 +107,24 @@ p {
 \*******************/
 
 .main-body {
-  margin: 40px;
+  margin-left: 8vw;
+  margin-right: 8vw;
   padding: 0px;
 }
 
 .content-block {
-  display: inline-block;
-  float: left;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: min(84vw, 1000px);
 }
 
 .subheading {
   display: block;
+  width: min(84vw, 1000px);
+  height: 50px;
   font-size: 30px;
+  text-align: center;
   color: #1171D6;
   background-color: #BBBBBB;
 }
