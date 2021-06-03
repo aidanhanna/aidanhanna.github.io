@@ -106,15 +106,15 @@ p {
 \*******************/
 
 .main-body {
-  margin: 0px;
+  margin: 40px;
   padding: 0px;
 }
 
 .content-block {
   display: inline-block;
   float: left;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: auto;
+  margin-right: auto;
   width: 600px;
 }
 
@@ -122,10 +122,12 @@ p {
   display: block;
   font-size: 30px;
   color: #1171D6;
+  background-color: #BBBBBB;
 }
 
 .text-block: {
   display: block;
   font-size: 18px;
   color: #333333;
+  background-color: #DDDDDD;
 }
