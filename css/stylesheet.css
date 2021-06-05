@@ -119,7 +119,7 @@ p {
 }
 
 .about-button {
-  display: block;
+  display: none;
   height: 63px;
   width: 400px;
   background-color: #333333;
