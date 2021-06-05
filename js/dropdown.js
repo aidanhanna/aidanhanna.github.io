@@ -5,6 +5,12 @@
 
 let hidingAbout = true
 
-let toggleAbout = function() {
-  
+let showAbout = function() {
+  let buttonList = document.querySelector("#about-list")
+  buttonList.style.height = "132px"
+}
+
+let hideAbout = function() {
+  let buttonList = document.querySelector("#about-list")
+  buttonList.style.height = "0px"
 }
