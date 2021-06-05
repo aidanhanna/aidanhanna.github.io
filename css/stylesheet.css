@@ -108,6 +108,7 @@ p {
 \*********************/
 
 .dropdown-symbol {
+  display: inline;
   height: 60px;
   width: 60px;
 }
