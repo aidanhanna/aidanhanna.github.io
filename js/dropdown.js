@@ -7,10 +7,10 @@ let hidingAbout = true
 
 let showAbout = function() {
   let buttonList = document.querySelector("#about-list")
-  buttonList.style.height = "132px"
+  buttonList.style.display = block;
 }
 
 let hideAbout = function() {
   let buttonList = document.querySelector("#about-list")
-  buttonList.style.height = "0px"
+  buttonList.style.display = none;
 }
