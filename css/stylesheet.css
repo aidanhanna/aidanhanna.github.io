@@ -113,6 +113,19 @@ p {
   width: 60px;
 }
 
+#about-list {
+  position: absolute;
+  top: 66px;
+}
+
+.about-button {
+  display: block;
+  height: 63px;
+  width: 400px;
+  background-color: #333333;
+  border-left: 3px solid #555555;
+}
+
 /*******************\
 | FORMAT OF CONTENT |
 \*******************/
