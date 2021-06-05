@@ -103,6 +103,15 @@ p {
   cursor: pointer;
 }
 
+/*********************\
+| FORMAT OF DROPDOWNS |
+\*********************/
+
+.dropdown-symbol {
+  height: 60px;
+  width: 60px;
+}
+
 /*******************\
 | FORMAT OF CONTENT |
 \*******************/
