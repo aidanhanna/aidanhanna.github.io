@@ -10,8 +10,8 @@
       <h1 class='banner-text'>Computer Science</h1>
     </div>
     <div class='button-bar'>
-      <span class='dropdown-button'>
-        <span class='dropdown-button-text'>About<img class='dropdown-symbol' src='./images/dropdown.png'></span>
+      <span class='dropdown-button' onmouseout='hideAbout()'>
+        <span class='dropdown-button-text' onmouseover='showAbout()'>About<img class='dropdown-symbol' src='./images/dropdown.png'></span>
         <div class='button-list'>
           <a class='header-button' href='./index.html'>About Me</a>
           <a class='header-button' href='./website.html'>About This Website</a>
@@ -44,4 +44,5 @@
       </div>
     </div>
   </body>
+  <script src='./js/dropdown.js'></script> 
 </html>
