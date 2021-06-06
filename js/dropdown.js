@@ -5,7 +5,7 @@
 
 let hidingAbout = true
 
-let showAbout = function() {
+function showAbout() {
   let buttonList = document.querySelector("#about-list")
   buttonList.style.display = block;
 }
