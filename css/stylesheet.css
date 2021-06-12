@@ -122,7 +122,8 @@ p {
   display: none;
   height: 63px;
   width: 400px;
-  background-color: #333333;
+  font-size: 45px;
+  background-color: #EEEEEE;
   border-left: 3px solid #555555;
 }
 
