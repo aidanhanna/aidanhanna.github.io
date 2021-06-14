@@ -67,6 +67,7 @@ p {
 \**********************/
 
 .button-bar {
+  display: block;
   position: relative;
   width: 100vw;
   height: auto;
@@ -75,7 +76,6 @@ p {
   background-color: #EEEEEE;
   background-position: 0px 0px;
   background-repeat: repeat-y;
-  position: relative;
 }
 
 .header-button {
