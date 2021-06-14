@@ -131,6 +131,7 @@ p {
 }
 
 .about-subbutton {
+  display: none;
   font-size: 45px;
   height: 63px;
   width: auto;
