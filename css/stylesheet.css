@@ -144,9 +144,15 @@ p {
 \*******************/
 
 .main-body {
+  display: block;
   margin-left: 8vw;
   margin-right: 8vw;
   padding: 0px;
+}
+  
+.page-description {
+  display: block;
+  font-size: 25px;
 }
 
 .content-block {
@@ -154,6 +160,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: min(84vw, 1200px);
+  
+  font-size: 25px;
 }
 
 .subheading {
