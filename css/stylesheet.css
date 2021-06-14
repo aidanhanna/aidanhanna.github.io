@@ -72,6 +72,7 @@ p {
   height: auto;
   
   background-image: url('../images/ButtonFade.png');
+  background-color: #EEEEEE;
   background-position: 0px 0px;
   background-repeat: repeat-y;
   position: relative;
