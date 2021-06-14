@@ -10,15 +10,14 @@
       <h1 class='banner-text'>Computer Science</h1>
     </div>
     <div class='button-bar'>
-      <span id='about-dropdown'>
-        <span class='header-button' id='about-text' onclick='showAbout()'>About<img class='dropdown-symbol' src='./images/dropdown.png'></span>
-        <div id='about-list'>
-          <a class='about-button' href='./index.html'>About Me</a>
-          <a class='about-button' href='./website.html'>About This Website</a>
-        </div>
-      </span>
-      <a class='header-button' href='./compsci.html'>&nbsp;Computer Science&nbsp;</a>
-      <a class='header-button filler-button'></a>
+      <div class='header-button' id='about-button' onmouseover='showAbout()' onmouseout='hideAbout()'>
+        <h1 class='button-text'>About</h1>
+        <h2 class='about-subbutton' href='./index.html'>About Me</h2>
+        <h2 class='about-subbutton' href='./website.html'>About This Website</h2>      
+      </div>
+      <div class='header-button' id='compsci-button'>
+        <h1 class='button-text' href='./compsci.html'>CompSci</h1>
+      </div>
     </div>
     <div class='main-body'>
       <p class='page-description'>Through both school and independent study, I have learned a number of programming languages. This page...</p>
