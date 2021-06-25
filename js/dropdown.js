@@ -30,4 +30,10 @@ function toggleAbout() {
   }
 }
 
+function unhoverAbout() {
+  if (!aboutVisible) {
+    hideAbout();
+  }
+}
+
 
