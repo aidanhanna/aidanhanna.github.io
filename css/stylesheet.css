@@ -137,6 +137,7 @@ p {
   height: 63px;
   width: auto;
   font-size: 45px;
+  color: #333333;
   background-color: #EEEEEE;
   overflow: visible;
 
@@ -149,6 +150,7 @@ p {
   margin-right: 8vw;
   width: 84vw;
   padding: 0px;
+  background-color: #0000FF;
 }
   
 .page-description {
@@ -163,6 +165,7 @@ p {
   width: min(84vw, 1200px);
   
   font-size: 25px;
+  background-color: #00FF00;
 }
 
 .subheading {
@@ -172,7 +175,7 @@ p {
   font-size: 30px;
   text-align: center;
   color: #1171D6;
-  background-color: #BBBBBB;
+  background-color: #FF0000;
 }
 
 .text-block: {
