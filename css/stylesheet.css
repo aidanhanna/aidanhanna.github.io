@@ -125,7 +125,6 @@ p {
 }
 
 #about-button {
-  height: auto;
   width: auto;
   font-size: 45px;
   background-color: #EEEEEE;
@@ -140,6 +139,7 @@ p {
   color: #333333;
   background-color: #EEEEEE;
   overflow: visible;
+}
 
 /*******************\
 | FORMAT OF CONTENT |
