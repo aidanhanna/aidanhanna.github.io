@@ -70,7 +70,7 @@ p {
   display: block;
   position: relative;
   width: 100vw;
-  height: auto;
+  height: 66px;
   
   background-image: url('../images/ButtonFade.png');
   background-color: #EEEEEE;
@@ -171,8 +171,8 @@ p {
 .subheading {
   display: block;
   width: min(90vw, 1400px);
-  height: 50px;
-  font-size: 30px;
+  height: 100px;
+  font-size: 70px;
   text-align: center;
   color: #1171D6;
   background-color: #3282C8;
