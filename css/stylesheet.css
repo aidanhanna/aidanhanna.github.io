@@ -146,9 +146,9 @@ p {
 \*******************/
 
 .main-body {
-  margin-left: 8vw;
-  margin-right: 8vw;
-  width: 84vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90vw;
   padding: 0px;
   background-color: #0000FF;
 }
@@ -170,7 +170,7 @@ p {
 
 .subheading {
   display: block;
-  width: min(84vw, 1200px);
+  width: min(90vw, 1400px);
   height: 50px;
   font-size: 30px;
   text-align: center;
