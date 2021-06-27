@@ -10,10 +10,37 @@
       <h1 class='banner-text'>Home</h1>
     </div>
     <div class='button-bar'>
-      <a class='header-button' href='./index.html'>&nbsp;Home&nbsp;</h2></a>
-      <a class='header-button' href='./aboutme.html'>&nbsp;About Me&nbsp;</a>
-      <a class='header-button filler-button'></a>
+      <div class='header-button' id='about-button' onmouseover='showAbout()' onmouseout='unhoverAbout()' onclick='toggleAbout()'>
+        <a class='button-text'>About</a>
+        <div class='about-list'>
+          <a class='subbutton' href='./index.html'>About Me</a>
+          <a class='subbutton' href='./website.html'>About This Website</a>  
+        </div>
+      </div>
+      <div class='header-button' id='education-button'>
+        <a class='button-text'>Education</a>
+        <div class='ed-list'>
+          <a class='subbutton' href='./classes.html'>Classes</a>
+          <a class='subbutton' href='./eleceng.html'>Electrical Engineering</a>
+          <a class='subbutton' href='./compsci.html'>Computer Science</a>
+        </div>
+      </div>
+      <div class='header-button' id='experience-button'>
+        <a class='button-text'>Experience</a>
+        <div class='exp-list'>
+          <a class='subbutton' href='./intern.html'>Internships</a>
+        </div>
+      </div>
+      <div class='header-button' id='interest-button'>
+        <a class='button-text'>Interests</a>
+        <div class='int-list'>
+          <a class='subbutton' href='./game.html'>Game Design</a>
+          <a class='subbutton' href='./crochet.html'>Crochet</a>
+        </div>
+      </div>
     </div>
-    <p>Hi, I'm Aidan</p>
+    <div class='main-body'>
+      <p>Hi, I'm Aidan</p>
+    </div>
   </body>
 </html>
