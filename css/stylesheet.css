@@ -73,7 +73,7 @@ p {
   height: 66px;
   
   /*background-image: url('../images/ButtonFade.png');*/
-  background-color: #C3C3C3;
+  background-color: #CBCBCB;
   background-position: 0px 0px;
   background-repeat: repeat-y;
 }
@@ -86,7 +86,7 @@ p {
   text-align: center;
   
   /*background-image: url('../images/ButtonFade.png');*/
-  background-color: #D3D3D3;
+  background-color: #D0D0D0;
   background-position: 0px 0px;
   background-repeat: no-repeat;
   position: relative;
