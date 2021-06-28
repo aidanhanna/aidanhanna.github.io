@@ -108,14 +108,15 @@ p {
   cursor: pointer;
 }
 
-/*********************\
-| FORMAT OF DROPDOWNS |
-\*********************/
+/**********************\
+| FORMAT FOR DROPDOWNS |
+\**********************/
 
 .dropdown-symbol {
   display: inline;
   height: 60px;
   width: 60px;
+  background-image: url('./images/dropdown.png');
 }
 
 #about-button {
