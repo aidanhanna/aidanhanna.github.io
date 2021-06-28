@@ -4,7 +4,7 @@
 //////////////////////////
 
 let aboutVisible = false;
-
+/*
 function hideAbout() {
   let aboutButtons = document.querySelectorAll(".about-subbutton")
   aboutButtons.forEach(function(button) {
@@ -14,9 +14,20 @@ function hideAbout() {
 
 function showAbout() {
   let aboutButtons = document.querySelectorAll(".about-subbutton")
-  aboutButtons.forEach(function(button) {
+  aboutButtons.forEach(function(button) { 
   button.style.display = "block";
   })
+}
+*/
+
+function hideAbout() {
+  let aboutList = document.querySelector("#about-list");
+  aboutList.style.height = "0px";
+}
+
+function showAbout() {
+  let aboutButtons = document.querySelectorAll("#about-list");
+  aboutList.style.height = "auto";
 }
 
 function toggleAbout() {
