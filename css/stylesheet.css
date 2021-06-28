@@ -141,6 +141,18 @@ p {
   overflow: visible;
 }
 
+
+.subbutton {
+  display: block;
+  font-size: 45px;
+  height: 0px;
+  width: 100vw;
+  font-size: 45px;
+  color: #333333;
+  background-color: #EEEEEE;
+  overflow: hidden;
+}
+
 /*******************\
 | FORMAT OF CONTENT |
 \*******************/
