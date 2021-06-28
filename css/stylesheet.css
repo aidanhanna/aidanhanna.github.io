@@ -72,8 +72,8 @@ p {
   width: 100vw;
   height: 66px;
   
-  background-image: url('../images/ButtonFade.png');
-  background-color: #EEEEEE;
+  /*background-image: url('../images/ButtonFade.png');*/
+  background-color: #C3C3C3;
   background-position: 0px 0px;
   background-repeat: repeat-y;
 }
