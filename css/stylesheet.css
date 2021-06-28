@@ -118,6 +118,7 @@ p {
   height: 60px;
   width: 60px;
   background-image: url('./images/dropdown.png');
+  background-color: #FF0000;
 }
 
 #about-button {
