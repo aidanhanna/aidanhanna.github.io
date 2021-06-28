@@ -83,6 +83,7 @@ p {
   float: left;
   height: 66px;
   width: auto;
+  text-align: center;
   
   background-image: url('../images/ButtonFade.png');
   background-position: 0px 0px;
