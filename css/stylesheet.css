@@ -85,7 +85,8 @@ p {
   width: auto;
   text-align: center;
   
-  background-image: url('../images/ButtonFade.png');
+  /*background-image: url('../images/ButtonFade.png');*/
+  background-color: #D3D3D3;
   background-position: 0px 0px;
   background-repeat: no-repeat;
   position: relative;
