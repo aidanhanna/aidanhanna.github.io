@@ -123,6 +123,9 @@ p {
 }
 
 .button-list {
+  position: absolute;
+  top: 66px;
+  left: 0px;
   height: 0px;
   overflow: hidden;
 }
