@@ -122,28 +122,24 @@ p {
   background-color: #FF0000;
 }
 
+.button-list {
+  height: 0px;
+}
+
 #about-button {
   width: 200px;
-  font-size: 45px;
-  background-color: #EEEEEE;
 }
 
 #education-button {
   width: 300px;
-  font-size: 45px;
-  background-color: #EEEEEE;
 }
 
 #experience-button {
   width: 300px;
-  font-size: 45px;
-  background-color: #EEEEEE;
 }
 
 #interest-button {
   width: 300px;
-  font-size: 45px;
-  background-color: #EEEEEE;
 }
 
 /*
