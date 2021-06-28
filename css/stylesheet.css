@@ -126,7 +126,7 @@ p {
   position: absolute;
   top: 66px;
   left: 0px;
-  height: 0px;
+  height: auto;
   overflow: hidden;
 }
 
