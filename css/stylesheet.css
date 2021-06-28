@@ -89,7 +89,6 @@ p {
   background-color: #D0D0D0;
   background-position: 0px 0px;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 .button-text {
@@ -123,9 +122,6 @@ p {
 }
 
 .button-list {
-  position: absolute;
-  top: 66px;
-  left: 0px;
   height: auto;
   overflow: hidden;
 }
