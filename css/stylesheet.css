@@ -125,6 +125,7 @@ p {
   height: 200px;
   /*overflow: hidden;*/
   position: absolute;
+  text-align: left;
   z-index: 1;
 }
 
