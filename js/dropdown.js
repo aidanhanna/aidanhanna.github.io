@@ -22,12 +22,12 @@ function showAbout() {
 
 function hideAbout() {
   let aboutList = document.querySelector("#about-list");
-  aboutList.style.height = "0px";
+  aboutList.style.overflow = "hidden";
 }
 
 function showAbout() {
   let aboutButtons = document.querySelectorAll("#about-list");
-  aboutList.style.height = "auto";
+  aboutList.style.overflow = "visible";
 }
 
 function toggleAbout() {
