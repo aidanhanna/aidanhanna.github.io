@@ -124,6 +124,7 @@ p {
 .button-list {
   height: 200px;
   overflow: hidden;
+  position: absolute;
   z-index: 1;
 }
 
