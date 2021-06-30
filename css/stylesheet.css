@@ -180,12 +180,12 @@ p {
   margin-right: 5vw;
   width: 90vw;
   padding: 0px;
-  background-color: #0000FF;
 }
   
 .page-description {
   display: block;
   font-size: 25px;
+  color: #333333;
 }
 
 .content-block {
