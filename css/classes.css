@@ -13,7 +13,7 @@ a single page */
 }
 
 .semester-title {
-  font-size: 30px;
+  font-size: 50px;
   color: #2233EE;
 }
 
@@ -26,9 +26,9 @@ a single page */
 }
 
 .class-title {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .class-description {
-  font-size: 15px;
+  font-size: 30px;
 }
