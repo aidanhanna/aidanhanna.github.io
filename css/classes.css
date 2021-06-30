@@ -1,0 +1,34 @@
+/* While having a single css file would reduce the 
+number of HTTP requests necessary to load the page, 
+it is significantly easier to develop with multiple 
+files, especially for styles that are only used on 
+a single page */
+
+/******************\
+| FOR CLASSES PAGE |
+\******************/
+
+.semester-block {
+  
+}
+
+.semester-title {
+  font-size: 30px;
+  color: #2233EE;
+}
+
+.class-list {
+  
+}
+
+.class {
+  
+}
+
+.class-title {
+  font-size: 20px;
+}
+
+.class-description {
+  font-size: 15px;
+}
