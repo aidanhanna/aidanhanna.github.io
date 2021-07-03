@@ -20,31 +20,7 @@ function showAbout() {
 }
 */
 
-function hideAbout() {
-  let aboutList = document.querySelector("#about-list");
-  aboutList.style.overflow = "hidden";
+function toggleDropdown(name) {
+  let dropdown = document.querySelector("#" + name + ".subbutton");
+  dropdown.style.color = "#FF0000";
 }
-
-function showAbout() {
-  let aboutButtons = document.querySelectorAll("#about-list");
-  aboutList.style.overflow = "visible";
-}
-
-function toggleAbout() {
-  if (aboutVisible) {
-    aboutVisible = false;
-    hideAbout();
-  }
-  else {
-    aboutVisible = true;
-    showAbout();
-  }
-}
-
-function unhoverAbout() {
-  if (!aboutVisible) {
-    hideAbout();
-  }
-}
-
-
