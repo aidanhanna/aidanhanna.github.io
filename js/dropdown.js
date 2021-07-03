@@ -21,6 +21,6 @@ function showAbout() {
 */
 
 function toggleDropdown(name) {
-  let dropdown = document.querySelector("#" + name + ".subbutton");
+  let dropdown = document.querySelector("#" + name);
   dropdown.style.color = "#FF0000";
 }
