@@ -132,10 +132,11 @@ p {
 
 .button-list {
   height: 0px;
-  /*overflow: hidden;*/
+  overflow: hidden;
   position: absolute;
   text-align: left;
   z-index: 1;
+  background-color: #FF0000;
 }
 
 #about-button {
