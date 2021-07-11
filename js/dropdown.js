@@ -3,7 +3,6 @@
  // closing of dropdowns //
 //////////////////////////
 
-let aboutVisible = false;
 /*
 function hideAbout() {
   let aboutButtons = document.querySelectorAll(".about-subbutton")
@@ -30,5 +29,21 @@ function toggleDropdown(name) {
    else
    {
       dropdown.style.height == "0px";
+   }
+}
+
+let aboutVisible = false;
+function toggleAbout() {
+   let dropdown = document.querySelector("#about-list");
+   /*dropdown.style.height = "500px";*/
+   if (aboutVisible)
+   {
+      dropdown.style.height == "0px";
+      aboutVisible = false;
+   }
+   else
+   {
+      dropdown.style.height == "500px";
+      aboutVisible = true;
    }
 }
