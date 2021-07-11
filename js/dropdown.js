@@ -22,13 +22,13 @@ function showAbout() {
 
 function toggleDropdown(name) {
    let dropdown = document.querySelector(name);
-   dropdown.style.height = "500px";
-   /*if (dropdown.style.height == "0px")
+   /*dropdown.style.height = "500px";*/
+   if (dropdown.style.height == "0px")
    {
       dropdown.style.height == "500px";
    }
    else
    {
       dropdown.style.height == "0px";
-   }*/
+   }
 }
