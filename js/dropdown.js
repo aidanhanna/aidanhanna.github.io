@@ -17,11 +17,9 @@ function showAbout() {
   button.style.display = "block";
   })
 }
-*/
 
 function toggleDropdown(name) {
    let dropdown = document.querySelector(name);
-   /*dropdown.style.height = "500px";*/
    if (dropdown.style.height == "0px")
    {
       dropdown.style.height == "500px";
@@ -31,6 +29,7 @@ function toggleDropdown(name) {
       dropdown.style.height == "0px";
    }
 }
+*/
 
 let aboutVisible = false;
 function toggleAbout() {
@@ -39,13 +38,13 @@ function toggleAbout() {
    if (aboutVisible)
    {
       dropdown.style.backgroundColor = "#00FF00";
-      dropdown.style.height == "0px";
+      dropdown.style.height = "0px";
       aboutVisible = false;
    }
    else
    {
       dropdown.style.backgroundColor = "#0000FF";
-      dropdown.style.height == "500px";
+      dropdown.style.height = "500px";
       aboutVisible = true;
    }
 }
