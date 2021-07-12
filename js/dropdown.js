@@ -38,11 +38,13 @@ function toggleAbout() {
    /*dropdown.style.height = "500px";*/
    if (aboutVisible)
    {
+      dropdown.style.backgroundColor = "#00FF00";
       dropdown.style.height == "0px";
       aboutVisible = false;
    }
    else
    {
+      dropdown.style.backgroundColor = "#0000FF";
       dropdown.style.height == "500px";
       aboutVisible = true;
    }
