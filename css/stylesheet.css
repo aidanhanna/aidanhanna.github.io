@@ -102,7 +102,7 @@ p {
 .button-text {
   color: #333333;
   font-size: 45px;
-  height: 60px;
+  height: 66px;
   
   text-align: center;
   vertical-align: middle;
@@ -120,8 +120,8 @@ p {
 
 .dropdown-symbol {
   display: inline;
-  height: 60px;
-  width: 60px;
+  height: 66px;
+  width: 66px;
   background-image: url('./images/dropdown.png');
   background-color: #FF0000;
 }
