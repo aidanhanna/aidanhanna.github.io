@@ -127,7 +127,7 @@ p {
 }
 
 .button-list {
-  height: 500px;
+  height: 80px;
   overflow: hidden;
   position: absolute;
   text-align: left;
