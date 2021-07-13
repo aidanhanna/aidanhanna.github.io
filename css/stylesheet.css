@@ -78,10 +78,10 @@ p {
   display: block;
   position: relative;
   width: 100vw;
-  height: 66px;
+  height: 50px;
   
   /*background-image: url('../images/ButtonFade.png');*/
-  background-color: #CBCBCB;
+  background-color: #D0D0D0;
   background-position: 0px 0px;
   background-repeat: repeat-y;
 }
