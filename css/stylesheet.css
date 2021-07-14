@@ -101,7 +101,7 @@ p {
 
 .button-text {
   color: #333333;
-  font-size: 36px;
+  font-size: 25px;
   height: 50px;
   
   text-align: center;
@@ -118,12 +118,17 @@ p {
 | FORMAT FOR DROPDOWNS |
 \**********************/
 
-.dropdown-symbol {
-  display: inline;
+.menu-toggle {
+  display: inline-block;
   height: 50px;
   width: 50px;
-  background-image: url('./images/dropdown.png');
-  background-color: #FF0000;
+}
+
+.dropdown-symbol {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: auto;
 }
 
 .button-list {
