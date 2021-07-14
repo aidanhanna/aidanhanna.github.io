@@ -90,7 +90,6 @@ function checkSpace() {
       
       let menuToggle = document.querySelector("#menu-toggle");
       menuToggle.style.width = "50px";
-      menuToggle.style.display = "inline-block";
    }
    else
    {
