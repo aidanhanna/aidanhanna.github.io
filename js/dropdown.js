@@ -94,3 +94,15 @@ function toggleInt() {
       intVisible = true;
    }
 }
+
+window.addEventListener("resize", getSizes, false);
+                  
+let out = document.querySelector(".output");
+  
+function getSizes() {
+   let body = document.body;
+   let zoom = body.clientWidth + "px x " +
+       body.clientHeight + "px";
+   out.textContent = zoom;
+}
+
