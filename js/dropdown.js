@@ -95,14 +95,30 @@ function toggleInt() {
    }
 }
 
-window.addEventListener("resize", getSizes, false);
+
+window.addEventListener("resize", checkSpace, false);
                   
 let out = document.querySelector(".output");
   
-function getSizes() {
-   let body = document.body;
-   let zoom = body.clientWidth + "px x " +
-       body.clientHeight + "px";
-   out.textContent = zoom;
+function checkSpace() {
+   let windowWidth = document.body.clientWidth;
+   let buttonBarWidth = 890;
+   
+   if (buttonBarWidth > windowWidth)
+   {
+      let dropdowns = document.querySelectorAll(".header-button");
+      dropdowns.forEach(function(dropdown) { 
+      dropdown.style.display = "none";
+      })
+   }
+   else
+   {
+      let dropdowns = document.querySelectorAll(".header-button");
+      dropdowns.forEach(function(dropdown) { 
+      dropdown.style.display = "inline-block";
+      })
+   }
+   
+   out.textContent = windowWidth;
 }
 
