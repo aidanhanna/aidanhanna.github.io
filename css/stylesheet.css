@@ -121,7 +121,7 @@ p {
 .menu-toggle {
   display: inline-block;
   height: 50px;
-  width: 50px;
+  width: 0px;
 }
 
 .dropdown-symbol {
