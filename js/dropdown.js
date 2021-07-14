@@ -87,6 +87,9 @@ function checkSpace() {
       dropdowns.forEach(function(dropdown) { 
       dropdown.style.display = "none";
       })
+      
+      let menuToggle = document.querySelector("#menu-toggle");
+      menuToggle.style.width = "50px";
    }
    else
    {
@@ -94,6 +97,9 @@ function checkSpace() {
       dropdowns.forEach(function(dropdown) { 
       dropdown.style.display = "inline-block";
       })
+      
+      let menuToggle = document.querySelector("#menu-toggle");
+      menuToggle.style.width = "0px";
    }
    
    out.textContent = windowWidth;
