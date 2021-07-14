@@ -3,34 +3,6 @@
  // closing of dropdowns //
 //////////////////////////
 
-/*
-function hideAbout() {
-  let aboutButtons = document.querySelectorAll(".about-subbutton")
-  aboutButtons.forEach(function(button) {
-  button.style.display = "none";
-  })
-}
-
-function showAbout() {
-  let aboutButtons = document.querySelectorAll(".about-subbutton")
-  aboutButtons.forEach(function(button) { 
-  button.style.display = "block";
-  })
-}
-
-function toggleDropdown(name) {
-   let dropdown = document.querySelector(name);
-   if (dropdown.style.height == "0px")
-   {
-      dropdown.style.height == "500px";
-   }
-   else
-   {
-      dropdown.style.height == "0px";
-   }
-}
-*/
-
 let aboutVisible = false;
 function toggleAbout() {
    let dropdown = document.querySelector("#about-list");
@@ -95,7 +67,12 @@ function toggleInt() {
    }
 }
 
+   ////////////////////////////
+  // controls changing view //
+ // if window is too small //
+////////////////////////////
 
+window.addEventListener("load", checkSpace, false);
 window.addEventListener("resize", checkSpace, false);
                   
 let out = document.querySelector(".output");
