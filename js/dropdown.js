@@ -81,7 +81,6 @@ function checkSpace() {
    let windowWidth = document.body.clientWidth;
    let buttonBarWidth = 890;
    
-   /*
    if (buttonBarWidth > windowWidth)
    {
       let dropdowns = document.querySelectorAll(".header-button");
@@ -92,6 +91,7 @@ function checkSpace() {
       let menuToggle = document.querySelector("#menu-toggle");
       menuToggle.style.width = "50px";
    }
+   /*
    else
    {
       let dropdowns = document.querySelectorAll(".header-button");
