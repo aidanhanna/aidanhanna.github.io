@@ -95,6 +95,11 @@ function checkSpace() {
    }
    else
    {
+      if (menuVisible)
+      {
+         toggleMenu();
+      }
+      
       let dropdowns = document.querySelectorAll(".header-button");
       dropdowns.forEach(function(dropdown) { 
          dropdown.style.display = "inline-block";
