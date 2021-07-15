@@ -85,7 +85,9 @@ function checkSpace() {
    {
       let dropdowns = document.querySelectorAll(".header-button");
       dropdowns.forEach(function(dropdown) { 
-      dropdown.style.display = "none";
+         dropdown.style.height = "0px";
+         dropdown.style.display = "block";
+         dropdown.style.width = "100vw";
       })
       
       let menuToggle = document.querySelector(".menu-toggle");
@@ -95,8 +97,13 @@ function checkSpace() {
    {
       let dropdowns = document.querySelectorAll(".header-button");
       dropdowns.forEach(function(dropdown) { 
-      dropdown.style.display = "inline-block";
+         dropdown.style.display = "inline-block";
+         dropdown.style.height = "50px";
       })
+      document.querySelectorAll("#about-button").style.width = "160px";
+      document.querySelectorAll("#ed-button").style.width = "240px";
+      document.querySelectorAll("#exp-button").style.width = "250px";
+      document.querySelectorAll("#int-button").style.width = "240px";
       
       let menuToggle = document.querySelector(".menu-toggle");
       menuToggle.style.width = "0px";
@@ -105,3 +112,20 @@ function checkSpace() {
    out.textContent = windowWidth;
 }
 
+let menuVisible = false;
+function toggleMenu() {
+   if (menuVisible)
+   {
+      let dropdowns = document.querySelectorAll(".header-button");
+      dropdowns.forEach(function(dropdown) { 
+         dropdown.style.height = "0px";
+      })
+   }
+   else 
+   {
+      let dropdowns = document.querySelectorAll(".header-button");
+      dropdowns.forEach(function(dropdown) { 
+         dropdown.style.height = "50px";
+      })
+   }
+}
