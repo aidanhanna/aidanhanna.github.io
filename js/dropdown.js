@@ -79,15 +79,16 @@ let out = document.querySelector(".output");
   
 function checkSpace() {
    let windowWidth = document.body.clientWidth;
-   let buttonBarWidth = 890;
+   let buttonBarWidth = 1100;
    
    if (buttonBarWidth > windowWidth)
    {
+      /*
       let dropdowns = document.querySelectorAll(".header-button");
       dropdowns.forEach(function(dropdown) { 
       dropdown.style.display = "none";
       })
-      
+      */
       let menuToggle = document.querySelector("#menu-toggle");
       menuToggle.style.width = "50px";
    }
