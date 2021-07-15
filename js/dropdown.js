@@ -83,16 +83,14 @@ function checkSpace() {
    
    if (buttonBarWidth > windowWidth)
    {
-      /*
       let dropdowns = document.querySelectorAll(".header-button");
       dropdowns.forEach(function(dropdown) { 
       dropdown.style.display = "none";
       })
-      */
-      let menuToggle = document.querySelector("#menu-toggle");
+      
+      let menuToggle = document.querySelector(".menu-toggle");
       menuToggle.style.width = "50px";
    }
-   /*
    else
    {
       let dropdowns = document.querySelectorAll(".header-button");
@@ -100,10 +98,10 @@ function checkSpace() {
       dropdown.style.display = "inline-block";
       })
       
-      let menuToggle = document.querySelector("#menu-toggle");
+      let menuToggle = document.querySelector(".menu-toggle");
       menuToggle.style.width = "0px";
    }
-   */
+   
    out.textContent = windowWidth;
 }
 
