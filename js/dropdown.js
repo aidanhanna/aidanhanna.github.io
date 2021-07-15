@@ -120,6 +120,7 @@ function toggleMenu() {
       dropdowns.forEach(function(dropdown) { 
          dropdown.style.height = "0px";
       })
+      menuVisible = false;
    }
    else 
    {
@@ -127,5 +128,6 @@ function toggleMenu() {
       dropdowns.forEach(function(dropdown) { 
          dropdown.style.height = "50px";
       })
+      menuVisible = true;
    }
 }
