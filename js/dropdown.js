@@ -79,7 +79,7 @@ let out = document.querySelector(".output");
   
 function checkSpace() {
    let windowWidth = document.body.clientWidth;
-   let buttonBarWidth = 1100;
+   let buttonBarWidth = 890;
    
    if (buttonBarWidth > windowWidth)
    {
