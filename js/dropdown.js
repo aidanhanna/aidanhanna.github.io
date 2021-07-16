@@ -105,10 +105,10 @@ function checkSpace() {
          dropdown.style.display = "inline-block";
          dropdown.style.height = "50px";
       })
-      document.querySelectorAll("#about-button").style.width = "160px";
-      document.querySelectorAll("#ed-button").style.width = "240px";
-      document.querySelectorAll("#exp-button").style.width = "250px";
-      document.querySelectorAll("#int-button").style.width = "240px";
+      document.querySelector("#about-button").style.width = "160px";
+      document.querySelector("#ed-button").style.width = "240px";
+      document.querySelector("#exp-button").style.width = "250px";
+      document.querySelector("#int-button").style.width = "240px";
       
       let menuToggle = document.querySelector(".menu-toggle");
       menuToggle.style.width = "0px";
