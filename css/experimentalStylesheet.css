@@ -102,17 +102,12 @@ p {
 .button-text {
   color: #333333;
   font-size: 25px;
-  height: 50px;
+  height: 30px;
+  padding: 10px;
   
   text-align: center;
   vertical-align: middle;
 }
-
-.header-button:hover {
-  color: #555555;
-  cursor: pointer;
-}
-
 
 /**********************\
 | FORMAT FOR DROPDOWNS |
@@ -137,8 +132,7 @@ p {
   overflow: hidden;
   position: absolute;
   text-align: left;
-  z-index: 1;
-  background-color: #FF0000;
+  z-index: 2;
 }
 
 #about-button {
@@ -160,11 +154,11 @@ p {
 
 .subbutton {
   display: block;
-  height: 50px;
-  /*width: 100vw;*/
+  height: auto;
   width: auto;
+  padding: 10px;
   
-  font-size: 18px;
+  font-size: 25px;
   color: #333333;
   text-align: left;
   
