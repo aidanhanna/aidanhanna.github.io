@@ -128,11 +128,13 @@ p {
 }
 
 .button-list {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+  
   height: 0px;
   overflow: hidden;
-  position: absolute;
   text-align: left;
-  z-index: 2;
 }
 
 #about-button {
