@@ -137,6 +137,8 @@ p {
   height: 0px;
   overflow: hidden;
   text-align: left;
+  
+  transition: height 2s ease-in-out;
 }
 
 #about-button {
