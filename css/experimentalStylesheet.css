@@ -141,18 +141,33 @@ p {
   width: 160px;
 }
 
+#about-list {
+  left: 0px;
+}
+
 #education-button {
   width: 240px;
+}
+
+#ed-list {
+  left: 160px;
 }
 
 #experience-button {
   width: 250px;
 }
 
+#exp-list {
+  left: 400px;
+}
+
 #interest-button {
   width: 240px;
 }
 
+#int-list {
+  left: 650px;
+}
 
 .subbutton {
   display: block;
