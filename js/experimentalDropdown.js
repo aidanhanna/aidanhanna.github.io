@@ -136,6 +136,7 @@ function checkSpace() {
    let dropdowns = document.querySelectorAll(".header-button");
    let lists = document.querySelectorAll(".button-list");
    // compare widths
+   /*
    if (buttonBarWidth > windowWidth) // if too small
    {
       // reformat main buttons to collapse to the side
@@ -184,7 +185,7 @@ function checkSpace() {
       // hide toggle
       menuToggle.style.width = "0px";
    }
-   
+   */
    out.textContent = windowWidth;
 }
 
