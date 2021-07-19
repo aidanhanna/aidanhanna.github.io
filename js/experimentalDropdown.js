@@ -131,10 +131,10 @@ function checkSpace() {
    let windowWidth = document.body.clientWidth;
    let buttonBarWidth = 890;
    
-   
    let menuToggle = document.querySelector(".menu-toggle");
    let dropdowns = document.querySelectorAll(".header-button");
    let lists = document.querySelectorAll(".button-list");
+   
    // compare widths
    if (buttonBarWidth > windowWidth) // if too small
    {
@@ -165,7 +165,7 @@ function checkSpace() {
       
       // reformat main buttons into a line
       dropdowns.forEach(function(dropdown) { 
-         dropdown.style.position: "static";
+         //dropdown.style.position: "static";
          dropdown.style.height = "50px";
          dropdown.style.width = "auto";
       })
