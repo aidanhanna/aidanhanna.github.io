@@ -149,7 +149,6 @@ function checkSpace() {
       // reformat button lists to be fullscreen width
       lists.forEach(function(list) { 
          list.style.height = "0px";
-         list.style.display = "block";
          list.style.width = "100vw";
       })
       
@@ -163,10 +162,10 @@ function checkSpace() {
       {
          toggleMenu();
       }
+      
       // reformat main buttons into a line
       dropdowns.forEach(function(dropdown) { 
-         dropdown.style.position: "relative";
-         dropdown.style.display = "inline-block";
+         dropdown.style.position: "static";
          dropdown.style.height = "50px";
          dropdown.style.width = "auto";
       })
