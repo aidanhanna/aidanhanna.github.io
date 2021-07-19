@@ -131,11 +131,14 @@ function checkSpace() {
    let windowWidth = document.body.clientWidth;
    let buttonBarWidth = 890;
    
+   
+   let menuToggle = document.querySelector(".menu-toggle");
+   let dropdowns = document.querySelectorAll(".header-button");
+   let lists = document.querySelectorAll(".button-list");
    // compare widths
    if (buttonBarWidth > windowWidth) // if too small
    {
       // reformat main buttons to collapse to the side
-      let dropdowns = document.querySelectorAll(".header-button");
       dropdowns.forEach(function(dropdown) { 
          dropdown.style.height = "0px";
          dropdown.style.display = "block";
@@ -144,7 +147,6 @@ function checkSpace() {
       })
       
       // reformat button lists to be fullscreen width
-      let lists = document.querySelectorAll(".button-list");
       lists.forEach(function(list) { 
          list.style.height = "0px";
          list.style.display = "block";
@@ -152,7 +154,6 @@ function checkSpace() {
       })
       
       // show toggle
-      let menuToggle = document.querySelector(".menu-toggle");
       menuToggle.style.width = "50px";
    }
    else
@@ -164,27 +165,23 @@ function checkSpace() {
       }
       
       // reformat main buttons into a line
-      let dropdowns = document.querySelectorAll(".header-button");
       dropdowns.forEach(function(dropdown) { 
          dropdown.style.position: "relative";
          dropdown.style.display = "inline-block";
          dropdown.style.height = "50px";
+         dropdown.style.width = "auto";
       })
-      
-      // reset button widths
-      document.querySelector("#about-button").style.width = "160px";
-      document.querySelector("#education-button").style.width = "240px";
-      document.querySelector("#experience-button").style.width = "250px";
-      document.querySelector("#interest-button").style.width = "240px";
       
       // reset horizontal positions for lists
       // about list is always at 0
-      document.querySelector("#ed-list").style.left = "160px";
-      document.querySelector("#exp-list").style.left = "400px";
-      document.querySelector("#int-list").style.left = "650px";
+      let edlist = document.querySelector("#ed-list");
+      edlist.style.left = "160px";
+      let explist = document.querySelector("#exp-list");
+      explist.style.left = "400px";
+      let intlist = document.querySelector("#int-list");
+      intlist.style.left = "650px";
       
       // hide toggle
-      let menuToggle = document.querySelector(".menu-toggle");
       menuToggle.style.width = "0px";
    }
    
