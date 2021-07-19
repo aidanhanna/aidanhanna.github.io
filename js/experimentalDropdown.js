@@ -163,7 +163,6 @@ function checkSpace() {
       {
          toggleMenu();
       }
-      /*
       // reformat main buttons into a line
       dropdowns.forEach(function(dropdown) { 
          dropdown.style.position: "relative";
@@ -172,6 +171,7 @@ function checkSpace() {
          dropdown.style.width = "auto";
       })
       
+      /*
       // reset horizontal positions for lists
       // about list is always at 0
       let edlist = document.querySelector("#ed-list");
