@@ -4,7 +4,6 @@
 
 * {
   text-decoration: none !important;
-  transition: all 2s;
 }
 
 html, body, div {
@@ -138,8 +137,6 @@ p {
   height: 0px;
   overflow: hidden;
   text-align: left;
-  
-  transition: all 2s;
 }
 
 #about-button {
