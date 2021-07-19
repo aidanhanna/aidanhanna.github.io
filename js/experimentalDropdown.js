@@ -100,9 +100,32 @@ function toggleInt() {
 
 window.addEventListener("load", checkSpace, false);
 window.addEventListener("resize", checkSpace, false);
-                  
+
+
 let out = document.querySelector(".output");
-  
+
+
+let menuVisible = false;
+
+function toggleMenu() {
+   if (menuVisible)
+   {
+      let dropdowns = document.querySelectorAll(".header-button");
+      dropdowns.forEach(function(dropdown) { 
+         dropdown.style.height = "0px";
+      })
+      menuVisible = false;
+   }
+   else 
+   {
+      let dropdowns = document.querySelectorAll(".header-button");
+      dropdowns.forEach(function(dropdown) { 
+         dropdown.style.height = "50px";
+      })
+      menuVisible = true;
+   }
+}
+
 function checkSpace() {
    // calculate widths
    let windowWidth = document.body.clientWidth;
@@ -120,6 +143,7 @@ function checkSpace() {
          dropdown.style.position = "absolute";
       })
       
+      // reformat button lists to be fullscreen width
       let lists = document.querySelectorAll(".button-list");
       lists.forEach(function(list) { 
          list.style.height = "0px";
@@ -142,6 +166,7 @@ function checkSpace() {
       // reformat main buttons into a line
       let dropdowns = document.querySelectorAll(".header-button");
       dropdowns.forEach(function(dropdown) { 
+         dropdown.style.position: "relative";
          dropdown.style.display = "inline-block";
          dropdown.style.height = "50px";
       })
@@ -158,6 +183,7 @@ function checkSpace() {
       document.querySelector("#exp-list").style.left = "400px";
       document.querySelector("#int-list").style.left = "650px";
       
+      // hide toggle
       let menuToggle = document.querySelector(".menu-toggle");
       menuToggle.style.width = "0px";
    }
@@ -165,22 +191,3 @@ function checkSpace() {
    out.textContent = windowWidth;
 }
 
-let menuVisible = false;
-function toggleMenu() {
-   if (menuVisible)
-   {
-      let dropdowns = document.querySelectorAll(".header-button");
-      dropdowns.forEach(function(dropdown) { 
-         dropdown.style.height = "0px";
-      })
-      menuVisible = false;
-   }
-   else 
-   {
-      let dropdowns = document.querySelectorAll(".header-button");
-      dropdowns.forEach(function(dropdown) { 
-         dropdown.style.height = "50px";
-      })
-      menuVisible = true;
-   }
-}
