@@ -156,7 +156,6 @@ function checkSpace() {
       // show toggle
       menuToggle.style.width = "50px";
    }
-   /*
    else
    {
       // close menu if necessary
@@ -164,7 +163,7 @@ function checkSpace() {
       {
          toggleMenu();
       }
-      
+      /*
       // reformat main buttons into a line
       dropdowns.forEach(function(dropdown) { 
          dropdown.style.position: "relative";
@@ -181,11 +180,11 @@ function checkSpace() {
       explist.style.left = "400px";
       let intlist = document.querySelector("#int-list");
       intlist.style.left = "650px";
+      */
       
       // hide toggle
       menuToggle.style.width = "0px";
    }
-   */
    out.textContent = windowWidth;
 }
 
