@@ -165,19 +165,19 @@ function checkSpace() {
       
       // reformat main buttons into a line
       dropdowns.forEach(function(dropdown) { 
-         dropdown.style.position: "static";
          dropdown.style.height = "50px";
          dropdown.style.width = "auto";
       })
       
       // reset horizontal positions for lists
-      // about list is always at 0
-      let edlist = document.querySelector("#ed-list");
-      edlist.style.left = "160px";
-      let explist = document.querySelector("#exp-list");
-      explist.style.left = "400px";
-      let intlist = document.querySelector("#int-list");
-      intlist.style.left = "650px";
+      // about button and list is always at 0
+      let offset = 0;
+      for (let i = 0; i < 4; i++)
+      {
+         dropdowns[i].style.left = offset;
+         lists[i].style.left = offset;
+         offset += dropdowns[i].style.width;
+      }
       
       // hide toggle
       menuToggle.style.width = "0px";
