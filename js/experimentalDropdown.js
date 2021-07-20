@@ -166,8 +166,8 @@ function checkSpace() {
       // reformat main buttons into a line
       dropdowns.forEach(function(dropdown) { 
          //dropdown.style.position: "static";
-         dropdown.style.height = "50px";
-         dropdown.style.width = "auto";
+         //dropdown.style.height = "50px";
+         //dropdown.style.width = "auto";
       })
       
       /*
