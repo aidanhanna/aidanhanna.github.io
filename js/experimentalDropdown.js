@@ -170,7 +170,6 @@ function checkSpace() {
          //dropdown.style.width = "auto";
       })
       
-      /*
       // reset horizontal positions for lists
       // about list is always at 0
       let edlist = document.querySelector("#ed-list");
@@ -179,7 +178,6 @@ function checkSpace() {
       explist.style.left = "400px";
       let intlist = document.querySelector("#int-list");
       intlist.style.left = "650px";
-      */
       
       // hide toggle
       menuToggle.style.width = "0px";
