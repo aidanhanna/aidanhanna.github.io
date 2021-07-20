@@ -167,7 +167,7 @@ function checkSpace() {
       dropdowns.forEach(function(dropdown) { 
          //dropdown.style.position: "static";
          //dropdown.style.height = "50px";
-         //dropdown.style.width = "auto";
+         dropdown.style.width = "auto";
       })
       
       // reset horizontal positions for lists
