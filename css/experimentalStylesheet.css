@@ -87,6 +87,7 @@ p {
 }
 
 .header-button {
+  position: static;
   display: inline-block;
   float: left;
   
