@@ -152,6 +152,11 @@ function checkSpace() {
          list.style.width = "100vw";
       })
       
+      for (let i = 0; i < 4;)
+      {
+         (dropdowns[i]).style.color = "red";
+      }
+      
       // show toggle
       menuToggle.style.width = "50px";
    }
