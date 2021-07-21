@@ -86,8 +86,15 @@ p {
   background-repeat: repeat-y;
 }
 
+.menu-toggle {
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 0px;
+}
+
 .header-button {
-  position: static;
+  position: absolute;
   display: inline-block;
   float: left;
   
@@ -113,23 +120,25 @@ p {
   vertical-align: middle;
 }
 
-/**********************\
-| FORMAT FOR DROPDOWNS |
-\**********************/
-
-.menu-toggle {
+.dropdown-image {
   display: inline-block;
-  float: left;
-  height: 50px;
-  width: 0px;
+  height: 30px;
+  width: 30px;
+  padding: 10px 10px 10px 0px;
 }
 
 .dropdown-symbol {
   display: inline-block;
   height: 30px;
   width: 30px;
-  margin: auto;
+  padding: 10px 10px 10px 0px;
+  background-image: url('./images/badDropdown.png');
 }
+
+
+/**********************\
+| FORMAT FOR DROPDOWNS |
+\**********************/
 
 .button-list {
   position: absolute;
@@ -141,32 +150,16 @@ p {
   text-align: left;
 }
 
-#about-button {
-  width: 160px;
-}
-
 #about-list {
   left: 0px;
-}
-
-#education-button {
-  width: 240px;
 }
 
 #ed-list {
   left: 160px;
 }
 
-#experience-button {
-  width: 250px;
-}
-
 #exp-list {
   left: 400px;
-}
-
-#interest-button {
-  width: 240px;
 }
 
 #int-list {
