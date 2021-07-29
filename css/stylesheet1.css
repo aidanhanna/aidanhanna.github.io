@@ -98,7 +98,7 @@ p {
   /*background-image: url('../images/ButtonFade.png');
   background-position: 0px 0px;
   background-repeat: no-repeat;*/
-  border: solid blue 2px;
+  border: solid #888 2px;
 }
 
 .button-wrapper {
@@ -109,7 +109,7 @@ p {
   
   height: 0px;
   width: auto;
-  padding: 10px;
+  padding: 0px;
   border: solid red 2px;
 }
 
