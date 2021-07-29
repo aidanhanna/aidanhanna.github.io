@@ -75,8 +75,8 @@ p {
 \**********************/
 
 .button-bar {
-  display: block;
   position: relative;
+  display: block;
   width: 100vw;
   height: 50px;
   
@@ -87,6 +87,7 @@ p {
 }
 
 .header-button {
+  position: relative;
   display: inline-block;
   float: left;
   height: 50px;
