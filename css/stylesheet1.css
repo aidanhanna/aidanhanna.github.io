@@ -99,25 +99,26 @@ p {
   background-repeat: no-repeat;*/
 }
 
-.button-text {
+.button-wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   
+  height: 0px;
+  width: auto;
+}
+
+.button-text {
+  position: relative;
+  transform: translate(0%, -50%);
+  
+  display: inline-block;
   color: #333333;
   font-size: 25px;
-  height: 50px;
-  
-  text-align: center;
-  vertical-align: middle;
+  height: auto;
+  width: auto;
 }
-
-.header-button:hover {
-  color: #555555;
-  cursor: pointer;
-}
-
 
 /**********************\
 | FORMAT FOR DROPDOWNS |
@@ -131,10 +132,12 @@ p {
 }
 
 .dropdown-symbol {
+  position: relative;
+  transform: translate(0%, -50%);
+  
   display: inline-block;
   height: 30px;
   width: 30px;
-  margin: auto;
 }
 
 .button-list {
