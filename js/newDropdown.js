@@ -109,8 +109,8 @@ function checkSpace() {
       menuToggle.style.width = "0px";
       */
       
-      let abt = document.querySelector("#about-button")
-      let abt2 = document.querySelector("#about-text")
+      let abt = document.querySelector("#about-button");
+      let abt2 = document.querySelector("#about-text");
       abt.style.width = abt2.style.width;
       document.querySelector("#education-button").style.width = "240px";
       document.querySelector("#experience-button").style.width = "250px";
