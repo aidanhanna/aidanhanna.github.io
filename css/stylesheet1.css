@@ -92,7 +92,7 @@ p {
   float: left;
   height: 50px;
   width: auto;
-  text-align: center;
+  z-index: 1;
 
   background-color: #D0D0D0;  
   /*background-image: url('../images/ButtonFade.png');
@@ -143,11 +143,11 @@ p {
 }
 
 .button-list {
+  position: absolute;
   height: auto;
   overflow: hidden;
-  position: absolute;
   text-align: left;
-  z-index: 1;
+  z-index: 2;
   background-color: #FF0000;
 }
 
@@ -156,13 +156,13 @@ p {
   display: block;
   
   height: 50px;
-  width: auto;
+  width: 200px;
   
   background-color: #EEEEEE;
 }
 
 .subbutton-text {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
