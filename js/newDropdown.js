@@ -115,7 +115,7 @@ function checkSpace() {
       document.querySelector("#interest-button").style.width = "240px";
    }
    
-   out.textContent = document.querySelector("#about-text").style.width + "px";
+   out.textContent = document.querySelector("#about-button").style.width + "px " + document.querySelector("#about-text").style.width + "px";
 }
 
 let menuVisible = false;
