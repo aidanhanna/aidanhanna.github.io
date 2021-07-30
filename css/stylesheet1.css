@@ -108,7 +108,7 @@ p {
   
   height: 0px;
   width: auto;
-  padding: 20px;
+  padding: 30px;
 }
 
 .button-text {
@@ -166,7 +166,7 @@ p {
 }
 
 .subbutton-text {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
