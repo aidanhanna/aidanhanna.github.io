@@ -144,10 +144,14 @@ p {
 
 .button-list {
   position: absolute;
+  top: 50px;
+  
   height: auto;
-  overflow: hidden;
-  text-align: left;
+  width: auto;
+  
+  /*overflow: hidden;*/
   z-index: 2;
+  
   background-color: #FF0000;
 }
 
