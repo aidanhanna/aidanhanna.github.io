@@ -116,6 +116,7 @@ p {
   /*background-image: url('../images/ButtonFade.png');
   background-position: 0px 0px;
   background-repeat: no-repeat;*/
+  border: red 1px solid;
 }
 
 .name-wrapper, .button-wrapper {
@@ -127,7 +128,6 @@ p {
   height: 0px;
   width: auto;
   padding: 30px;
-  border: red 2px solid;
 }
 
 .name-text, .button-text {
