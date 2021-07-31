@@ -102,9 +102,9 @@ p {
   width: 30px;
 }
 
-/* Name */
+/* Name and Header Buttons */
 
-.name-button {
+.name-button, .header-button {
   position: relative;
   display: inline-block;
   float: left;
@@ -118,7 +118,7 @@ p {
   background-repeat: no-repeat;*/
 }
 
-.name-wrapper {
+.name-wrapper, .button-wrapper {
   position: relative;
   top: 50%;
   left: 50%;
@@ -129,45 +129,7 @@ p {
   padding: 30px;
 }
 
-.name-text {
-  position: relative;
-  transform: translate(0%, -50%);
-  
-  display: inline-block;
-  color: #333333;
-  font-size: 25px;
-  height: auto;
-  width: auto;
-}
-
-/* Header Buttons */
-
-.header-button {
-  position: relative;
-  display: inline-block;
-  float: left;
-  height: 50px;
-  width: auto;
-  z-index: 1;
-
-  background-color: #D0D0D0;  
-  /*background-image: url('../images/ButtonFade.png');
-  background-position: 0px 0px;
-  background-repeat: no-repeat;*/
-}
-
-.button-wrapper {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  height: 0px;
-  width: auto;
-  padding: 30px;
-}
-
-.button-text {
+.name-text, .button-text {
   position: relative;
   transform: translate(0%, -50%);
   
