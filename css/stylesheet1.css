@@ -172,14 +172,13 @@ p {
   
   height: 0px;
   width: auto;
-  padding: 20px;
+  padding: 0px;
   border: green 2px solid;
 }
 
 .subbutton-text {
   position: relative;
   transform: translate(0%, -50%);
-  display: none;
   font-size: 18px;
   color: #333333;
   text-align: left;
