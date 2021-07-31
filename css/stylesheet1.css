@@ -124,6 +124,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1;
   
   height: 0px;
   width: auto;
@@ -133,6 +134,7 @@ p {
 .name-text, .button-text {
   position: relative;
   transform: translate(0%, -50%);
+  z-index: 1;
   
   display: inline-block;
   color: #333333;
@@ -164,6 +166,7 @@ p {
 .subbutton {
   position: relative;
   display: block;
+  z-index: 2;
   
   height: 40px;
   width: auto;
@@ -174,6 +177,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
   
   height: 0px;
   width: auto;
@@ -184,6 +188,7 @@ p {
   position: relative;
   display: inline-block;
   transform: translate(-0%, -50%);
+  z-index: 2;
   
   height: auto;
   width: auto;
