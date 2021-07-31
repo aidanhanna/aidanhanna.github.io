@@ -3,6 +3,7 @@
  // closing of dropdowns //
 //////////////////////////
 
+/*
 let aboutVisible = false;
 function toggleAbout() {
    let dropdown = document.querySelector("#about-list");
@@ -62,6 +63,7 @@ function toggleInt() {
       intVisible = true;
    }
 }
+*/
 
    ////////////////////////////
   // controls changing view //
@@ -79,39 +81,27 @@ function checkSpace() {
    
    if (buttonBarWidth > windowWidth)
    {
-     /*
-      let dropdowns = document.querySelectorAll(".header-button");
+      let buttons = document.querySelectorAll(".header-button");
+      buttons.forEach(function(button) { 
+         //dropdown.style.height = "0px";
+         button.style.display = "block";
+         button.style.width = "100vw";
+      })
+      
+      let dropdowns = document.querySelectorAll(".button-list");
       dropdowns.forEach(function(dropdown) { 
-         dropdown.style.height = "0px";
-         dropdown.style.display = "block";
+         //dropdown.style.height = "0px";
+         //dropdown.style.display = "block";
          dropdown.style.width = "100vw";
       })
       
       let menuToggle = document.querySelector(".menu-toggle");
       menuToggle.style.width = "50px";
-      */
+      
    }
    else
    {
-      /*
-      if (menuVisible)
-      {
-         toggleMenu();
-      }
       
-      let dropdowns = document.querySelectorAll(".header-button");
-      dropdowns.forEach(function(dropdown) { 
-         dropdown.style.display = "inline-block";
-         dropdown.style.height = "50px";
-      })
-      
-      let menuToggle = document.querySelector(".menu-toggle");
-      menuToggle.style.width = "0px";
-      */
-      
-      let abt = document.querySelector("#about-button");
-      let abt2 = document.querySelector("#about-text");
-      abt.style.width = abt2.style.width + "px";
    }
    
    out.textContent = "3";
