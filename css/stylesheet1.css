@@ -160,9 +160,8 @@ p {
   position: relative;
   display: block;
   
-  height: 50px;
+  height: 40px;
   width: auto;
-  border: red 2px solid;
 }
 
 .subbutton-wrapper {
@@ -174,7 +173,6 @@ p {
   height: 0px;
   width: auto;
   padding: 20px;
-  border: green 2px solid;
 }
 
 .subbutton-text {
@@ -189,7 +187,6 @@ p {
   color: #333333;
   text-align: left;
   white-space: nowrap;
-  border: cyan 2px solid;
 }
 
 
