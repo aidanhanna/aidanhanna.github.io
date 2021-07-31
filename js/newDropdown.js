@@ -93,6 +93,7 @@ function checkSpace() {
          //dropdown.style.height = "0px";
          //dropdown.style.display = "block";
          dropdown.style.width = "100vw";
+         dropdown.style.left = "0px";
       })
       
       let menuToggle = document.querySelector(".menu-toggle");
