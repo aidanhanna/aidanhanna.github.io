@@ -183,6 +183,7 @@ p {
   font-size: 18px;
   color: #333333;
   text-align: left;
+  white-space: nowrap;
   border: blue 2px solid;
 }
 
