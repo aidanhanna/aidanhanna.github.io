@@ -168,7 +168,7 @@ p {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-0%, -50%);
+  transform: translate(-50%, -50%);
   
   height: 0px;
   width: auto;
@@ -179,7 +179,7 @@ p {
 .subbutton-text {
   position: relative;
   display: inline-block;
-  transform: translate(-50%, -50%);
+  transform: translate(-0%, -50%);
   
   height: auto;
   width: auto;
@@ -188,7 +188,7 @@ p {
   color: #333333;
   text-align: left;
   white-space: nowrap;
-  border: cyan 2px solid;
+  border: blue 2px solid;
 }
 
 
