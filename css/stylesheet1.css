@@ -122,6 +122,10 @@ p {
   width: auto;
 }
 
+.button-text:hover {
+  color: #555555;
+}
+
 /**********************\
 | FORMAT FOR DROPDOWNS |
 \**********************/
