@@ -145,6 +145,7 @@ p {
 .button-list {
   position: absolute;
   top: 50px;
+  left: 10px;
   
   height: auto;
   width: auto;
@@ -172,7 +173,7 @@ p {
   
   height: 0px;
   width: auto;
-  padding: 0px;
+  padding: 20px;
   border: green 2px solid;
 }
 
@@ -188,7 +189,7 @@ p {
   color: #333333;
   text-align: left;
   white-space: nowrap;
-  border: blue 2px solid;
+  border: cyan 2px solid;
 }
 
 
