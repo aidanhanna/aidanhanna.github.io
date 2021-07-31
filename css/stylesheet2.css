@@ -44,22 +44,22 @@ p {
 
 .image-banner {
   position: relative;
-  text-align: center;
   max-width: 100vw;
   /*background-color: #3282C8;*/
+  text-align: center;
   
   padding: 0px;
   margin: 0px;
 }
 
 .banner-text {
-  text-align: center;
   position: absolute;
-  width: 100vw;
   top: 5vw;
   left: 50%;
   transform: translate(-50%, -50%);
   
+  width: 100vw;
+  text-align: center;
   color: #F0F0F0;
   font-size: 7.5vw;
 }
@@ -75,8 +75,8 @@ p {
 \**********************/
 
 .button-bar {
-  display: block;
   position: relative;
+  display: block;
   width: 100vw;
   height: 50px;
   
@@ -86,38 +86,6 @@ p {
   background-repeat: repeat-y;
 }
 
-.header-button {
-  display: inline-block;
-  float: left;
-  height: 50px;
-  width: auto;
-  text-align: center;
-
-  background-color: #D0D0D0;  
-  /*background-image: url('../images/ButtonFade.png');
-  background-position: 0px 0px;
-  background-repeat: no-repeat;*/
-}
-
-.button-text {
-  color: #333333;
-  font-size: 25px;
-  height: 50px;
-  
-  text-align: center;
-  vertical-align: middle;
-}
-
-.header-button:hover {
-  color: #555555;
-  cursor: pointer;
-}
-
-
-/**********************\
-| FORMAT FOR DROPDOWNS |
-\**********************/
-
 .menu-toggle {
   display: inline-block;
   float: left;
@@ -126,50 +94,104 @@ p {
 }
 
 .dropdown-symbol {
+  position: relative;
+  transform: translate(0%, -50%);
+  
   display: inline-block;
   height: 30px;
   width: 30px;
-  margin: auto;
 }
+
+/* Name and Header Buttons */
+
+.name-button, .header-button {
+  position: relative;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: auto;
+  z-index: 1;
+
+  background-color: #D0D0D0;  
+  /*background-image: url('../images/ButtonFade.png');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;*/
+}
+
+.name-wrapper, .button-wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  height: 0px;
+  width: auto;
+  padding: 30px;
+  border: red 2px solid;
+}
+
+.name-text, .button-text {
+  position: relative;
+  transform: translate(0%, -50%);
+  
+  display: inline-block;
+  color: #333333;
+  font-size: 25px;
+  height: auto;
+  width: auto;
+}
+
+.button-text:hover {
+  color: #555555;
+}
+
+/* Subbuttons */
 
 .button-list {
-  height: 0px;
-  overflow: hidden;
   position: absolute;
-  text-align: left;
-  z-index: 1;
-  background-color: #FF0000;
+  top: 50px;
+  left: 15px;
+  
+  height: auto;
+  width: auto;
+  
+  overflow: hidden;
+  z-index: 2;
+  
+  background-color: #EEEEEE;
 }
-
-#about-button {
-  width: 160px;
-}
-
-#education-button {
-  width: 240px;
-}
-
-#experience-button {
-  width: 250px;
-}
-
-#interest-button {
-  width: 240px;
-}
-
 
 .subbutton {
+  position: relative;
   display: block;
-  height: 50px;
-  /*width: 100vw;*/
+  
+  height: 40px;
+  width: auto;
+}
+
+.subbutton-wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  height: 0px;
+  width: auto;
+  padding: 15px;
+}
+
+.subbutton-text {
+  position: relative;
+  display: inline-block;
+  transform: translate(-0%, -50%);
+  
+  height: auto;
   width: auto;
   
   font-size: 18px;
   color: #333333;
   text-align: left;
-  
-  background-color: #EEEEEE;
-  overflow: hidden;
+  white-space: nowrap;
 }
 
 
