@@ -179,7 +179,7 @@ p {
 .subbutton-text {
   position: relative;
   transform: translate(0%, -50%);
-  
+  display: none;
   font-size: 18px;
   color: #333333;
   text-align: left;
