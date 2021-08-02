@@ -84,7 +84,6 @@ function checkSpace() {
       let buttons = document.querySelectorAll(".header-button");
       buttons.forEach(function(button) { 
          //dropdown.style.height = "0px";
-         button.style.display = "block";
          button.style.width = "100vw";
       })
       
