@@ -154,7 +154,7 @@ p {
   top: 50px;
   left: 15px;
   
-  height: auto;
+  height: 0px;
   width: auto;
   
   overflow: hidden;
