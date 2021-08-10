@@ -7,36 +7,88 @@
   <body>
     <div class='button-bar'>
       <img class='menu-toggle' src='./images/badMenuButton.png' onclick='toggleMenu()'>
+      
+      <div class='name-button'>
+        <div class='name-wrapper'>
+          <a class='name-text'>Aidan Hanna</a>
+        </div>
+      </div>
+      
       <div class='header-button' id='about-button'>
-        <a class='button-text' onclick='toggleAbout()'>About</a><div class='dropdown-symbol'></div>
+        <div class='button-wrapper'>
+          <a class='button-text' id='about-text' onclick='toggleAbout()'>About</a>
+          <!--<img class='dropdown-image' src='./images/badDropdown.png'>-->
+        </div>
         <div class='button-list' id='about-list'>
-          <a class='subbutton' href='./index.html'>About Me</a>
-          <a class='subbutton' href='./website.html'>About This Website</a>  
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./index.html'>About Me</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./website.html'>About This Website</a> 
+            </div>
+          </div>
         </div>
-        <img class='dropdown-symbol' src='./images/badDropdown.png'>
       </div>
+      
       <div class='header-button' id='education-button'>
-        <a class='button-text' onclick='toggleEd()'>Education</a><p class='dropdown-symbol'></p>
-        <div class='button-list' id='ed-list'>
-          <a class='subbutton' href='./classes.html'>Classes</a>
-          <a class='subbutton' href='./eleceng.html'>Electrical Engineering</a>
-          <a class='subbutton' href='./compsci.html'>Computer Science</a>
+        <div class='button-wrapper'>
+          <a class='button-text' id='education-text' onclick='toggleEd()'>Education</a>
+        </div>
+        <div class='button-list' id='education-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./classes.html'>Classes</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./eleceng.html'>Electrical Engineering</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./compsci.html'>Computer Science</a>
+            </div>
+          </div>
         </div>
       </div>
+        
       <div class='header-button' id='experience-button'>
-        <a class='button-text' onclick='toggleExp()'>Experience</a><div class='dropdown-symbol'></div>
-        <div class='button-list' id='exp-list'>
-          <a class='subbutton' href='./intern.html'>Internships</a>
+        <div class='button-wrapper'>
+          <a class='button-text' id='experience-text' onclick='toggleExp()'>Experience</a>
+        </div>
+        <div class='button-list' id='experience-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./intern.html'>Internships</a>
+            </div>
+          </div>
         </div>
       </div>
+        
       <div class='header-button' id='interest-button'>
-        <a class='button-text' onclick='toggleInt()'>Interests</a><div class='dropdown-symbol'></div>
-        <div class='button-list' id='int-list'>
-          <a class='subbutton' href='./game.html'>Game Design</a>
-          <a class='subbutton' href='./crochet.html'>Crochet</a>
+        <div class='button-wrapper'>
+          <a class='button-text' id='interest-text' onclick='toggleInt()'>Interests</a>
+        </div>
+        <div class='button-list' id='interest-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./game.html'>Game Design</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./crochet.html'>Crochet</a>
+            </div>
+          </div>
         </div>
       </div>
+      
     </div>
+    
     <div class='image-banner'>
       <img src='./images/OkayishBackground.png' class='banner-image'>
       <h1 class='banner-text'>About Me</h1>
