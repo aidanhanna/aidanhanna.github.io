@@ -3,7 +3,6 @@
  // closing of dropdowns //
 //////////////////////////
 
-/*
 let aboutVisible = false;
 function toggleAbout() {
    let dropdown = document.querySelector("#about-list");
@@ -63,13 +62,13 @@ function toggleInt() {
       intVisible = true;
    }
 }
-*/
+
 
    ////////////////////////////
   // controls changing view //
  // if window is too small //
 ////////////////////////////
-
+/*
 window.addEventListener("load", checkSpace, false);
 window.addEventListener("resize", checkSpace, false);
                   
@@ -118,4 +117,5 @@ function toggleMenu() {
       
    }
 }
+*/
 
