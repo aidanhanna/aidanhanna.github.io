@@ -20,7 +20,7 @@ function toggleAbout() {
 
 let edVisible = false;
 function toggleEd() {
-   let dropdown = document.querySelector("#ed-list");
+   let dropdown = document.querySelector("#education-list");
    if (edVisible)
    {
       dropdown.style.height = "0px";
@@ -35,7 +35,7 @@ function toggleEd() {
 
 let expVisible = false;
 function toggleExp() {
-   let dropdown = document.querySelector("#exp-list");
+   let dropdown = document.querySelector("#experience-list");
    if (expVisible)
    {
       dropdown.style.height = "0px";
@@ -50,7 +50,7 @@ function toggleExp() {
 
 let intVisible = false;
 function toggleInt() {
-   let dropdown = document.querySelector("#int-list");
+   let dropdown = document.querySelector("#interest-list");
    if (intVisible)
    {
       dropdown.style.height = "0px";
