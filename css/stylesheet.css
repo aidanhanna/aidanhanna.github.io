@@ -206,6 +206,8 @@ p {
 .main-body {
   margin-left: 5vw;
   margin-right: 5vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
   width: 90vw;
   padding: 0px;
 }
