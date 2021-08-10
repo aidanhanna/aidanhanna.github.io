@@ -221,9 +221,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: min(90vw, 1400px);
-  
-  font-size: 25px;
-  background-color: #00FF00;
 }
 
 .subheading {
@@ -241,4 +238,13 @@ p {
   font-size: 18px;
   color: #333333;
   background-color: #DDDDDD;
+}
+
+#face-image: {
+  width: 400px;
+  height: auto;
+  
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
