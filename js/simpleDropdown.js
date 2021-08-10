@@ -3,8 +3,28 @@
  // closing of dropdowns //
 //////////////////////////
 
+function closeDropdowns(current) {
+   if (aboutVisible && current != "about")
+   {
+      toggleAbout();
+   }
+   if (edVisible && current != "ed")
+   {
+      toggleEd();
+   }
+   if (expVisible && current != "exp")
+   {
+      toggleExp();
+   }
+   if (intVisible && current != "int")
+   {
+      toggleInt()
+   }
+}
+
 let aboutVisible = false;
 function toggleAbout() {
+   closeDropdowns("about");
    let dropdown = document.querySelector("#about-list");
    if (aboutVisible)
    {
@@ -20,6 +40,7 @@ function toggleAbout() {
 
 let edVisible = false;
 function toggleEd() {
+   closeDropdowns("ed");
    let dropdown = document.querySelector("#education-list");
    if (edVisible)
    {
@@ -35,6 +56,7 @@ function toggleEd() {
 
 let expVisible = false;
 function toggleExp() {
+   closeDropdowns("exp");
    let dropdown = document.querySelector("#experience-list");
    if (expVisible)
    {
@@ -50,6 +72,7 @@ function toggleExp() {
 
 let intVisible = false;
 function toggleInt() {
+   closeDropdowns("int");
    let dropdown = document.querySelector("#interest-list");
    if (intVisible)
    {
