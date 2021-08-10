@@ -242,7 +242,7 @@ p {
   background-color: #DDDDDD;
 }
 
-#face-image: {
+.face-image: {
   width: 400px;
   height: auto;
   
