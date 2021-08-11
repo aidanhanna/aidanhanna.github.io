@@ -251,6 +251,7 @@ p {
   display: block;
   width: 100vw;
   height: 50px;
+  margin-top: 5vw;
 }
 
 .footer {
