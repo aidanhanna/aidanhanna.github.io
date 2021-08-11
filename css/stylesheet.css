@@ -285,7 +285,7 @@ p {
 }
 
 .footer-fader {
-  position: relative;
+  position: absolute;
   bottom: 2px;
   overflow: visible;
   
