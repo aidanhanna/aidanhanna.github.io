@@ -248,6 +248,14 @@ p {
 \******************/
 
 .footer {
+  display: block;
+  width: 100vw;
+  height: 50px;
+  
+  background-color: #EEEEEE;
+}
+
+.footer {
   position: fixed;
   bottom: 0px;
   
