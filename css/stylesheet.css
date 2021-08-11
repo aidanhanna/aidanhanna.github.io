@@ -265,6 +265,7 @@ p {
   
   height: 0px;
   width: auto;
+  border: 1px solid green;
 }
 
 .footer-text {
@@ -276,6 +277,7 @@ p {
   
   height: auto;
   width: auto;
+  border: 1px solid red;
   
   font-size: 15px;
   color: #555555;
