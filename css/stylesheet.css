@@ -283,3 +283,13 @@ p {
   font-size: 15px;
   color: #555555;
 }
+
+.footer-fader {
+  position: relative;
+  bottom: 2px;
+  overflow: visible;
+  
+  height: 2px;
+  background-color: #D0D0D0;
+  opacity: 0.9;
+}
