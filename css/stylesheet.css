@@ -284,21 +284,3 @@ p {
   color: #555555;
 }
 
-.footer-fader-wrapper {
-  position: absolute;
-  bottom: 50px;
-  overflow: visible;
-  
-  height: 0px;
-}
-
-.footer-fader {
-  position: absolute;
-  bottom: 2px;
-  overflow: visible;
-  
-  height: 2px;
-  background-color: #0D0;
-  opacity: 0.9;
-  z-index: 1;
-}
