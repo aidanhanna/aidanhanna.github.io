@@ -250,8 +250,7 @@ p {
 .footer-buffer {
   display: block;
   width: 100vw;
-  height: 50px;
-  margin-top: 5vw;
+  height: calc(50px + 5vw);
 }
 
 .footer {
