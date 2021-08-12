@@ -2,53 +2,114 @@
 <html>
   <head>
     <!--Need to include any fonts here-->
-    <link rel='stylesheet' href='./css/experimentalStylesheet.css'>
+    <link rel='stylesheet' href='./css/Stylesheet.css'>
   </head>
  <body>
     <div class='button-bar'>
       <img class='menu-toggle' src='./images/badMenuButton.png' onclick='toggleMenu()'>
+      
+      <div class='name-button'>
+        <div class='name-wrapper'>
+          <a class='name-text'>Aidan Hanna</a>
+        </div>
+      </div>
+      
       <div class='header-button' id='about-button'>
-        <a class='button-text' onclick='toggleAbout()'>About</a>
-        <img class='dropdown-image' src='./images/badDropdown.png'>
+        <div class='button-wrapper'>
+          <a class='button-text' id='about-text' onclick='toggleAbout()'>About</a>
+          <!--<img class='dropdown-image' src='./images/badDropdown.png'>-->
+        </div>
+        <div class='button-list' id='about-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./index.html'>About Me</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./website.html'>About This Website</a> 
+            </div>
+          </div>
+        </div>
       </div>
-      <div class='button-list' id='about-list'>
-        <a class='subbutton' href='./index.html'>About Me</a>
-        <a class='subbutton' href='./website.html'>About This Website</a>  
-      </div>
+      
       <div class='header-button' id='education-button'>
-        <a class='button-text' onclick='toggleEd()'>Education</a><div class='dropdown-symbol'></div>
+        <div class='button-wrapper'>
+          <a class='button-text' id='education-text' onclick='toggleEd()'>Education</a>
+        </div>
+        <div class='button-list' id='education-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./classes.html'>Classes</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./eleceng.html'>Electrical Engineering</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./compsci.html'>Computer Science</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class='button-list' id='ed-list'>
-        <a class='subbutton' href='./classes.html'>Classes</a>
-        <a class='subbutton' href='./eleceng.html'>Electrical Engineering</a>
-        <a class='subbutton' href='./compsci.html'>Computer Science</a>
-      </div>
+        
       <div class='header-button' id='experience-button'>
-        <a class='button-text' onclick='toggleExp()'>Experience</a><div class='dropdown-symbol'></div>
+        <div class='button-wrapper'>
+          <a class='button-text' id='experience-text' onclick='toggleExp()'>Experience</a>
+        </div>
+        <div class='button-list' id='experience-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./intern.html'>Internships</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class='button-list' id='exp-list'>
-        <a class='subbutton' href='./intern.html'>Internships</a>
-      </div>
+        
       <div class='header-button' id='interest-button'>
-        <a class='button-text' onclick='toggleInt()'>Interests</a><div class='dropdown-symbol'></div>
+        <div class='button-wrapper'>
+          <a class='button-text' id='interest-text' onclick='toggleInt()'>Interests</a>
+        </div>
+        <div class='button-list' id='interest-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./game.html'>Game Design</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./crochet.html'>Crochet</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class='button-list' id='int-list'>
-        <a class='subbutton' href='./game.html'>Game Design</a>
-        <a class='subbutton' href='./crochet.html'>Crochet</a>
-      </div>
+      
     </div>
+    
     <div class='image-banner'>
       <img src='./images/OkayishBackground.png' class='banner-image'>
       <h1 class='banner-text'>About This Website</h1>
     </div>
+    
     <div class='main-body'>
-      <p>Hi, I'm Aidan</p>
+      <div class='content-block'>
+        <p class='text-block'><img src='./images/portrait.png' style='width: 200px; float: left; margin-right: 20px; margin-bottom: 20px;'>
+          This website serves as an interactive resume and a place for me to showcase my work. I coded it myself using HTML for content, 
+          CSS for styling, and Javascript to make it more dynamic. It is currently a work in progress and will continue to be updated with 
+          new content and functionality over time.</p>
+      </div>
     </div>
-    <p>
-        Current Zoom Level in pixels:
-        <span class="output">
-        </span>
-    </p>
+    
+    <div class='footer-buffer'></div>
+    <div class='footer'>
+      <div class='footer-text-wrapper'>
+        <a class='footer-text'>Email: aidanhanna125@gmail.com</a>
+        <a class='footer-text' src='https://www.linkedin.com/in/aidan-hanna'>LinkedIn: https://www.linkedin.com/in/aidan-hanna</a>
+      </div>
+    </div>
   </body>
-  <script src='./js/experimentalDropdown.js'></script> 
+  <script src='./js/simpleDropdown.js'></script> 
 </html>
