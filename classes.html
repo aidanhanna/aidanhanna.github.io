@@ -97,35 +97,15 @@
     
     
     <div class='main-body'>
-      <p class='page-description'>This page contains a list of all of the courses I have taken and am currently taking. 
-        Each course name and number is accompanied by the corresponding description from the RPI course catalog available <a href=''>here</a>.
+      <p class='page-description'>This page contains a list of all of the courses I have taken and am currently taking. Each course name 
+        and number is accompanied by the corresponding description from the RPI course catalog available <a class='link' href=''>here</a>.
         </p>
       
-      <div class='semester-block'>
-        <h2 class='semester-title'>Fall 2021</h2>
-        <div class='class-list'>
-          <div class='class'>
-            <h3 class='class-title'>Classiness: the Class</h3>
-            <p class='class-description'>We learn stuff</p>
-          </div>
-          <div class='class'>
-            <h3 class='class-title'>Classiness: the Class</h3>
-            <p class='class-description'>We learn stuff</p>
-          </div>
-          <div class='class'>
-            <h3 class='class-title'>Classiness: the Class</h3>
-            <p class='class-description'>We learn stuff</p>
-          </div>
-        </div>
-      </div>
-      <div class='semester-block'>
-        <h2 class='semester-title'>Spring 2021</h2>
-      </div>
-      <div class='semester-block'>
+     <div class='semester-block'>
         <h2 class='semester-title'>Fall 2020</h2>
         <div class='class-list'>
           <div class='class'>
-            <h3 class='class-title'>ECSE 1010 - Introduction to Electrical, Computer, and Systems Engineering</h3>
+            <h3 class='class-title' onclick='toggleCourses("F20", "ECSE1010", "course")'>ECSE 1010 - Introduction to Electrical, Computer, and Systems Engineering</h3>
             <p class='class-description'>"An experiment-centric development of the basic analysis tools of Electrical, 
               Computer, and Systems Engineering, emphasizing the concepts and mathematics of analog and digital circuits 
               and electronics, programming, data generation and analysis, and system model development using paper and 
@@ -169,4 +149,5 @@
     
   </body>
   <script src='./js/simpleDropdown.js'></script>
+  <script src='./js/classes.js'></script>
 </html>
