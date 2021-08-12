@@ -6,6 +6,10 @@
   text-decoration: none !important;
 }
 
+.link {
+  text-decoration: underline;
+}
+
 html, body, div {
   font-family: sans-serif;
   font-size: 0px;
