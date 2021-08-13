@@ -240,12 +240,13 @@ p {
 
 .subheading {
   display: block;
+  padding: 0px;
+  margin: 10px;
   width: min(100%, 1400px);
   height: 100px;
   font-size: 70px;
   text-align: center;
   color: #1171D6;
-  background-color: #3282C8;
 }
 
 .text-block: {
