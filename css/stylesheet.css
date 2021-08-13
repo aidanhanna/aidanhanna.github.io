@@ -8,6 +8,7 @@
 
 .link {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 html, body, div {
@@ -150,6 +151,10 @@ p {
   width: auto;
 }
 
+.button-text {
+  cursor: pointer;
+}
+
 .button-text:hover {
   color: #555555;
 }
@@ -204,8 +209,8 @@ p {
   color: #333333;
   text-align: left;
   white-space: nowrap;
+  cursor: pointer;
 }
-
 
 /*******************\
 | FORMAT OF CONTENT |
