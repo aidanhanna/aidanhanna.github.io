@@ -16,6 +16,7 @@ function toggleCourses(semester, id, type) {
   {
     //find course to toggle
     let course = document.querySelector("#" + id)
+    course.style.color = "red";
     
     if (courses[semester][id])
     {
