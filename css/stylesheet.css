@@ -151,6 +151,10 @@ p {
   width: auto;
 }
 
+.name-text {
+  font-weight: bold;
+}
+
 .button-text {
   cursor: pointer;
 }
