@@ -15,6 +15,7 @@ a single page */
 .semester-title {
   font-size: 50px;
   color: #2233EE;
+  cursor: pointer;
 }
 
 .class-list {
@@ -27,6 +28,7 @@ a single page */
 
 .class-title {
   font-size: 32px;
+  cursor: pointer;
 }
 
 .class-description {
