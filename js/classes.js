@@ -12,6 +12,10 @@ let courses = {F20: { "semester": false, "ECSE1010": false, "CSCI1100": false, "
 //id is the HTML id NOT including '#'
 //type is either 'course' or 'semester'
 function toggleCourses(semester, id, type) {
+  
+  let out = document.querySelector(".output");
+  out.textContent = windowWidth;
+  
   if (type === 'course')
   {
     //find course to toggle
