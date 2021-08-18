@@ -16,6 +16,7 @@ function toggleCourses(semester, id, type) {
   let out = document.querySelector(".output");
   out.textContent = windowWidth;
   
+  /*
   if (type === 'course')
   {
     //find course to toggle
@@ -31,4 +32,5 @@ function toggleCourses(semester, id, type) {
       course.style.height = "auto";
     }
   }
+  */
 }
