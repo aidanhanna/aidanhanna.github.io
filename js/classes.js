@@ -16,7 +16,7 @@ let courses = {F20: { "semester": false, "ECSE1010": false, "CSCI1100": false, "
 function toggleCourses(semester, id, type) {
   
   let out = document.querySelector(".output");
-  out.textContent = "#" + id + ", " + courses[semester][id];
+  out.textContent = "#" + id + ", " + courses[semester][id] + ", " + courses[semester]["semester"];
   
   //for toggling a single class
   if (type === 'course')
@@ -47,22 +47,20 @@ function toggleCourses(semester, id, type) {
     //set height to change visibility
     if (courses[semester]["semester"])
     {
-      sem.style.height = "0px";
+      sem.style.height = "0px";//hide all classes (if open)
+      for (let courseID in courses[semester])
+      {
+        if (courses[semester][courseID]) //if open
+        {
+          let course = document.querySelector("#" + id);
+          course.style.height = "0px";
+          courses[semester][courseID] = !courses[semester][courseID];
+        }
+      }
     }
     else
     {
       sem.style.height = "auto";
-    }
-    
-    //hide all classes (if open)
-    for (let courseID in courses[semester])
-    {
-      if (courses[semester][courseID]) //if open
-      {
-        let course = document.querySelector("#" + id);
-        course.style.height = "0px";
-        courses[semester][courseID] = !courses[semester][courseID];
-      }
     }
     
     //update state
