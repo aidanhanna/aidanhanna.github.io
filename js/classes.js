@@ -14,7 +14,7 @@ let courses = {F20: { "semester": false, "ECSE1010": false, "CSCI1100": false, "
 function toggleCourses(semester, id, type) {
   
   let out = document.querySelector(".output");
-  out.textContent = "hi";
+  out.textContent = "#" + id;
   
   /*
   if (type === 'course')
