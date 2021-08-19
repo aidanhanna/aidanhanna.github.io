@@ -31,6 +31,8 @@ function toggleCourses(semester, id, type) {
     {
       course.style.height = "auto";
     }
+    
+    courses[semester][id] = !courses[semester][id];
   }
   */
 }
