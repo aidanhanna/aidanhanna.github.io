@@ -41,6 +41,9 @@ function toggleCourses(semester, id, type) {
   //for toggling a whole semester
   else if (type === 'semester')
   {
+    //update state
+    courses[semester]["semester"] = !courses[semester]["semester"];
+    
     //find semester to toggle
     let sem = document.querySelector("#" + id);
     
@@ -64,7 +67,5 @@ function toggleCourses(semester, id, type) {
       out.textContent = "doin it";
     }
     
-    //update state
-    courses[semester]["semester"] = !courses[semester]["semester"];
   }
 }
