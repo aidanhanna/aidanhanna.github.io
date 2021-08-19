@@ -2,6 +2,8 @@
 // and expanding semesters and courses on 
 // the class page 
 
+//stores visibility of each class and semester
+//'true' is visible, 'false' is hidden
 let courses = {F20: { "semester": false, "ECSE1010": false, "CSCI1100": false, "IHSS1972": false, "MATH2010": false, "MATH2400": false },
                S21: { "semester": false, "ECSE1010": false, "CSCI1100": false, "IHSS1972": false, "MATH2010": false, "MATH2400": false },
                F21: { "semester": false, "ECSE1010": false, "CSCI1100": false, "IHSS1972": false, "MATH2010": false, "MATH2400": false },
@@ -16,12 +18,13 @@ function toggleCourses(semester, id, type) {
   let out = document.querySelector(".output");
   out.textContent = "#" + id + ", " + courses[semester][id];
   
+  //for toggling a single class
   if (type === 'course')
   {
     //find course to toggle
-    let course = document.querySelector("#" + id)
-    course.style.color = "red";
+    let course = document.querySelector("#" + id);
     
+    //set height to change visibility
     if (courses[semester][id])
     {
       course.style.height = "0px";
@@ -31,6 +34,38 @@ function toggleCourses(semester, id, type) {
       course.style.height = "auto";
     }
     
+    //update state
     courses[semester][id] = !courses[semester][id];
+  }
+  
+  //for toggling a whole semester
+  else if (type === 'semester')
+  {
+    //find semester to toggle
+    let sem = document.querySelector("#" + id);
+    
+    //set height to change visibility
+    if (courses[semester]["semester"])
+    {
+      sem.style.height = "0px";
+    }
+    else
+    {
+      sem.style.height = "auto";
+    }
+    
+    //hide all classes (if open)
+    for (let courseID in courses[semester])
+    {
+      if (courses[semester][courseID]) //if open
+      {
+        let course = document.querySelector("#" + id);
+        course.style.height = "0px";
+        courses[semester][courseID] = !courses[semester][courseID];
+      }
+    }
+    
+    //update state
+    courses[semester]["semester"] = !courses[semester]["semester"];
   }
 }
