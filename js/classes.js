@@ -16,7 +16,6 @@ function toggleCourses(semester, id, type) {
   let out = document.querySelector(".output");
   out.textContent = "#" + id + ", " + courses[semester][id];
   
-  /*
   if (type === 'course')
   {
     //find course to toggle
@@ -34,5 +33,4 @@ function toggleCourses(semester, id, type) {
     
     courses[semester][id] = !courses[semester][id];
   }
-  */
 }
