@@ -30,10 +30,12 @@ a single page */
   height = 50px;
   font-size: 32px;
   cursor: pointer;
+  margin: 5px;
 }
 
 .class-description {
   height: 0px;
   font-size: 24px;
   overflow: hidden;
+  margin: 5px;
 }
