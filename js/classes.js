@@ -61,6 +61,7 @@ function toggleCourses(semester, id, type) {
     else
     {
       sem.style.height = "auto";
+      out.textContent = "doin it";
     }
     
     //update state
