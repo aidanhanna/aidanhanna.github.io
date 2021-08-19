@@ -16,7 +16,7 @@ let courses = {F20: { "semester": false, "ECSE1010": false, "CSCI1100": false, "
 function toggleCourses(semester, id, type) {
   
   let out = document.querySelector(".output");
-  out.textContent = "#" + id + ", " + courses[semester][id] + ", " + courses[semester]["semester"];
+  //out.textContent = "#" + id + ", " + courses[semester][id] + ", " + courses[semester]["semester"];
   
   //for toggling a single class
   if (type === 'course')
@@ -40,10 +40,7 @@ function toggleCourses(semester, id, type) {
   
   //for toggling a whole semester
   else if (type === 'semester')
-  {
-    //update state
-    courses[semester]["semester"] = !courses[semester]["semester"];
-    
+  {    
     //find semester to toggle
     let sem = document.querySelector("#" + id);
     
@@ -51,6 +48,7 @@ function toggleCourses(semester, id, type) {
     if (courses[semester]["semester"])
     {
       sem.style.height = "0px";//hide all classes (if open)
+      out.textContent = "hidden";
       for (let courseID in courses[semester])
       {
         if (courses[semester][courseID]) //if open
@@ -64,8 +62,10 @@ function toggleCourses(semester, id, type) {
     else
     {
       sem.style.height = "auto";
-      out.textContent = "doin it";
+      out.textContent = "unhidden";
     }
     
+    //update state
+    courses[semester]["semester"] = !courses[semester]["semester"];
   }
 }
