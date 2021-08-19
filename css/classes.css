@@ -16,6 +16,7 @@ a single page */
   font-size: 50px;
   color: #2233EE;
   cursor: pointer;
+  margin: 20px;
 }
 
 .class-list {
