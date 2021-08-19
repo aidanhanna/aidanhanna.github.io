@@ -49,6 +49,7 @@ function toggleCourses(semester, id, type) {
     {
       sem.style.height = "0px";//hide all classes (if open)
       out.textContent = "hidden";
+      /*
       for (let courseID in courses[semester])
       {
         if (courses[semester][courseID]) //if open
@@ -58,6 +59,7 @@ function toggleCourses(semester, id, type) {
           courses[semester][courseID] = !courses[semester][courseID];
         }
       }
+      */
     }
     else
     {
