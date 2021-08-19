@@ -1,48 +1,179 @@
 <!DOCTYPE HTML>
 <html>
-  <meta http-equiv="refresh" content="0; URL=https://aidanhanna.github.io/construction.html">
   <head>
     <!--Need to include any fonts here-->
     <link rel='stylesheet' href='./css/stylesheet.css'>
   </head>
   <body>
+    <div class='button-bar'>
+      <img class='menu-toggle' src='./images/badMenuButton.png' onclick='toggleMenu()'>
+      
+      <div class='name-button'>
+        <div class='name-wrapper'>
+          <a class='name-text'>Aidan Hanna</a>
+        </div>
+      </div>
+      
+      <div class='header-button' id='about-button'>
+        <div class='button-wrapper'>
+          <a class='button-text' id='about-text' onclick='toggleAbout()'>About</a>
+          <!--<img class='dropdown-image' src='./images/badDropdown.png'>-->
+        </div>
+        <div class='button-list' id='about-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./index.html'>About Me</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./website.html'>About This Website</a> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class='header-button' id='education-button'>
+        <div class='button-wrapper'>
+          <a class='button-text' id='education-text' onclick='toggleEd()'>Education</a>
+        </div>
+        <div class='button-list' id='education-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./classes.html'>Classes</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./eleceng.html'>Electrical Engineering</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./compsci.html'>Computer Science</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <div class='header-button' id='experience-button'>
+        <div class='button-wrapper'>
+          <a class='button-text' id='experience-text' onclick='toggleExp()'>Experience</a>
+        </div>
+        <div class='button-list' id='experience-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./intern.html'>Internships</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <div class='header-button' id='interest-button'>
+        <div class='button-wrapper'>
+          <a class='button-text' id='interest-text' onclick='toggleInt()'>Interests</a>
+        </div>
+        <div class='button-list' id='interest-list'>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./game.html'>Game Design</a>
+            </div>
+          </div>
+          <div class='subbutton'>
+            <div class='subbutton-wrapper'>
+              <a class='subbutton-text' href='./crochet.html'>Crochet</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
     <div class='image-banner'>
       <img src='./images/OkayishBackground.png' class='banner-image'>
-      <h1 class='banner-text'>Computer Science</h1>
+      <h1 class='banner-text'>About</h1>
     </div>
-    <div class='button-bar'>
-      <div class='header-button' id='about-button' onmouseover='showAbout()' onmouseout='unhoverAbout()' onclick='toggleAbout()'>
-        <a class='button-text'>About</a>
-        <a class='about-subbutton' href='./index.html'>About Me</a>
-        <a class='about-subbutton' href='./website.html'>About This Website</a>      
-      </div>
-      <div class='header-button' id='compsci-button'>
-        <a class='button-text' href='./compsci.html'>CompSci</a>
-      </div>
-    </div>
+    
     <div class='main-body'>
-      <p class='page-description'>Through both school and independent study, I have learned a number of programming languages. This page...</p>
+      <p class='page-description'>Through coursework and independent study I have learned a wide variety of languages, from high-level, 
+        dynamically-typed, and interpreted python to lower-level, statically-typed, and compiled C++. Below is a compilation of every 
+        language I have learned, how I learned it, and when I’ve used it.</p>
+      
       <div class='content-block'>
-        <h2 class='subheading'>C++<h2>
-        <p class='text-block'>I have been programming in C++ for over two years. My introduction to C++ was through online tutorials. 
-          These taught me the basics of the language, and since it was my first programming language, they taught me the basics of 
-          programming as a whole as well. My most recent experience is a class on data structures taught in C++. This class reinforced 
-          the fundamentals of the language while teaching me new skills, and the enforcement of strict coding standards prepared me to 
-          work more effectively in groups such as those encountered in a professional setting.</p>
+        <h2 class='subheading'>C++</h2>
+        <p class='text-block'>Online C++ tutorials were my first introduction to programming. These taught me the basics of the language, 
+          and since it was my first programming language, they taught me the basics of programming as a whole as well. My most recent C++ 
+          experience is a course on data structures which covered structures as simple as arrays and vectors to B-plus trees and hash maps. 
+          This course reinforced the fundamentals of the language while teaching me new skills, and the enforcement of stricter coding 
+          standards prepared me to work more effectively in groups which has proved helpful in projects I’ve worked on with friends or 
+          needed help debugging. Due to my familiarity with the language, C++ is my preferred language for most projects.</p>
       </div>
+      
       <div class='content-block'>
-        <h2 class='subheading'>HTML<h2>
-        <p class='text-block'>I have learned HTML through online tutorials - primarily codecademy - and the use of reference websites 
-          and documentation. My primary use of HTML has been the creation of the structure and content of this website. All of the files 
-          for the website are available to view <a href='https://github.com/aidanhanna/aidanhanna.github.io'>here</a>.</p>
+        <h2 class='subheading'>C</h2>
+        <p class='text-block'>[Unfinished]</p>
       </div>
+      
       <div class='content-block'>
-        <h2 class='subheading'>CSS<h2>
-        <p class='text-block'>My experience with CSS is very similar to that with HTML: I learned it through online tutorials, and by 
-          reading reference websites and documentation. The CSS code used to style and format this website is available to view 
-          <a href='https://github.com/aidanhanna/aidanhanna.github.io/blob/main/css/stylesheet.css'>here</a>.</p>
+        <h2 class='subheading'>Python</h2>
+        <p class='text-block'>My Computer Science I class taught python from the fundamentals to more advanced topics. This was my first 
+          formal computer science class and as such began my education on subjects like readability and efficiency, very important concepts 
+          that had previously been neglected. Python is my preferred language for quick prototyping or repeated calculations due to the ease 
+          and brevity of its syntax. Because we used the pillow module in class, python is also the language I turn to for creating things 
+          like the banner image at the top of each page was created from scratch using various features of the pillow module. Python allowed 
+          for much more precision than otherwise would have been possible.</p>
+      </div>
+      
+      <!--Still learning
+      <div class='content-block'>
+        <h2 class='subheading'>Java</h2>
+        <p class='text-block'></p>
+      </div>
+      -->
+      
+      <div class='content-block'>
+        <h2 class='subheading'>HTML</h2>
+        <p class='text-block'>HTML is the backbone of website development. While most of my time is spent debugging javascript and fiddling 
+          with details is CSS, without HTML this website could not exist. HTML is the first language I learned to create this website, and 
+          the HTML files here contain all of the real content for this website.</p>
+      </div>
+      
+      <div class='content-block'>
+        <h2 class='subheading'>CSS</h2>
+        <p class='text-block'>[Unfinished]</p>
+      </div>
+      
+      <div class='content-block'>
+        <h2 class='subheading'>Javascript</h2>
+        <p class='text-block'>I have learned javascript to create dynamic features for this website. It has been used for the dropdown 
+          navigation at the top of each page and for the collapsing of the classes page to allow for the pages of this website to stay 
+          significantly more compact and streamlined. While not strictly necessary, it greatly enhances the functionality of this website. 
+          In the future, I hope to use javascript to create small-scale games that would be available to play on this website.</p>
+      </div>
+      
+      <!--Still learning
+      <div class='content-block'>
+        <h2 class='subheading'>SQL</h2>
+        <p class='text-block'></p>
+      </div>
+      -->
+      
+      <!--Template to copy
+      <div class='content-block'>
+        <h2 class='subheading'></h2>
+        <p class='text-block'></p>
+      </div>
+      -->
+      
+    </div>
+    
+    <div class='footer-buffer'></div>
+    <div class='footer'>
+      <div class='footer-text-wrapper'>
+        <a class='footer-text'>Email: aidanhanna125@gmail.com</a>
+        <a class='footer-text' href='https://www.linkedin.com/in/aidan-hanna' target='_blank' rel='noopener noreferrer'>LinkedIn: https://www.linkedin.com/in/aidan-hanna</a>
       </div>
     </div>
   </body>
-  <script src='./js/dropdown.js'></script> 
+  <script src='./js/simpleDropdown.js'></script> 
 </html>
