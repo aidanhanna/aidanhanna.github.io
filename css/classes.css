@@ -33,6 +33,7 @@ a single page */
 }
 
 .class-description {
+  height: 0px;
   font-size: 24px;
   overflow: hidden;
 }
