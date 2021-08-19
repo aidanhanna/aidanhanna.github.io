@@ -101,9 +101,64 @@
         and number is accompanied by the corresponding description from the RPI course catalog available <a class='link' href=''>here</a>.
         </p>
     
-    <p>The info is:</p><p class='output'>output</p>
+      <p>The info is:</p><p class='output'>output</p>
       
-     <div class='semester-block'>
+      <!-- Template to copy
+      <div class='semester-block'>
+        <h2 class='semester-title' onclick='toggleCourses("", "", "semester")'></h2>
+        <div class='class-list' id=''>
+          <div class='class'>
+            <h3 class='class-title' onclick='toggleCourses("", "", "course")'></h3>
+            <p class='class-description' id=''></p>
+          </div>
+        </div>
+      </div>
+      -->
+      
+      <div class='semester-block'>
+        <h2 class='semester-title' onclick='toggleCourses("S21", "S21", "semester")'>Spring 2021</h2>
+        <div class='class-list' id='S21'>
+          <div class='class'>
+            <h3 class='class-title' onclick='toggleCourses("S21", "ECSE2010", "course")'>ECSE 2010 - Electric Circuits</h3>
+            <p class='class-description' id='ECSE2010'>Techniques for the analysis and simulation of linear electric circuits 
+              and measurements of their properties. Topics include resistive and energy-storage elements, controlled sources 
+              and operational amplifiers, systematic analysis methods, AC steady state, power and three-phase systems, magnetic 
+              coupling and transformers, transients, s-plane representation and analysis, frequency response, and Laplace 
+              transform and computer-aided methods.</p>
+          </div>
+          <div class='class'>
+            <h3 class='class-title' onclick='toggleCourses("S21", "ENGR2350", "course")'>ENGR 2350 - Embedded Control</h3>
+            <p class='class-description' id='ENGR2350'>Engineering laboratory introduction to the microprocessor as an embedded 
+              element of engineering systems. Students simultaneously develop the hardware and software of one or more target 
+              systems during the semester. Topics include concepts and practices of microcontroller hardware and software for 
+              command, sensing, control, and display. Specifically, this includes control of dynamic systems and sensor interfaces; 
+              analog-digital conversion; parallel input/output; driver circuits, modular programming, and subsystem integration.</p>
+          </div>
+          <div class='class'>
+            <h3 class='class-title' onclick='toggleCourses("S21", "CSCI1200", "course")'>CSCI 1200 - Data Structures</h3>
+            <p class='class-description' id='CSCI1200'>Programming concepts: functions, parameter passing, pointers, arrays, strings, 
+              structs, classes, templates. Mathematical tools: sets, functions, and relations, order notation, complexity of algorithms, 
+              proof by induction. Data structures and their representations: data abstraction and internal representation, sequences, 
+              trees, binary search trees, associative structures. Algorithms: searching and sorting, generic algorithms, iterative and 
+              recursive algorithms. Methods of testing correctness and measuring performance.</p>
+          </div>
+          <div class='class'>
+            <h3 class='class-title' onclick='toggleCourses("S21", "ECSE2500", "course")'>ECSE 2500 - Engineering Probability</h3>
+            <p class='class-description' id='ECSE2500'>Axioms of probability, joint and conditional probability, random variables, 
+              probability density, mass, and distribution functions, functions of one and two random variables, characteristic functions, 
+              sequences of independent random variables, central limit theorem, and laws of large numbers. Applications to electrical and 
+              computer engineering problems.</p>
+          </div>
+          <div class='class'>
+            <h3 class='class-title' onclick='toggleCourses("S21", "PHYS1200", "course")'>PHYS 1200 - Physics II</h3>
+            <p class='class-description' id='PHYS1200'>The second semester of the two-semester sequence of interactive courses. Topics 
+              include electric and magnetic forces and fields, Gauss’s Law, dc and ac circuits, Ampere’s Law and Faraday’s Law, 
+              electromagnetic radiation, physical optics, and quantum physics.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class='semester-block'>
         <h2 class='semester-title' onclick='toggleCourses("F20", "F20", "semester")'>Fall 2020</h2>
         <div class='class-list' id='F20'>
           <div class='class'>
