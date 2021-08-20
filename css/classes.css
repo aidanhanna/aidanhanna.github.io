@@ -20,6 +20,7 @@ a single page */
 }
 
 .class-list {
+  height: 0px;
   overflow: hidden;
 }
 
@@ -31,12 +32,12 @@ a single page */
   height = 50px;
   font-size: 32px;
   cursor: pointer;
-  margin: 10px 0px 10px 10px;
+  margin: 10px 0px 10px 30px;
 }
 
 .class-description {
   height: 0px;
   font-size: 24px;
   overflow: hidden;
-  margin: 10px 0px 15px 20px;
+  margin: 10px 0px 15px 60px;
 }
