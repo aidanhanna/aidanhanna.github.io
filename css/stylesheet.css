@@ -246,8 +246,10 @@ p {
   display: block;
   padding: 0px;
   margin: 10px;
+  
   width: min(100%, 1400px);
   height: 100px;
+  
   font-size: 70px;
   text-align: center;
   color: #1171D6;
@@ -255,6 +257,8 @@ p {
 
 .text-block: {
   display: block;
+  margin: 10px;
+  
   font-size: 18px;
   color: #333333;
   background-color: #DDDDDD;
