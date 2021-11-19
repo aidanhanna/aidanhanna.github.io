@@ -22,4 +22,5 @@
   padding: 0px;
   
   position: absolute;
+  image-rendering: pixelated;
 }
