@@ -2,10 +2,17 @@
 | BOARD FORMATTING |
 \******************/
 
+.row {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .square {
-  width: min(200px, 10vw);
-  height: min(200px, 10vw);
-  margin: 0;
+  width: min(64px, 5vw);
+  height: min(64px, 5vw);
+  margin: 0px;
   padding: 0px;
   display: inline;
 }
@@ -16,9 +23,9 @@
 \******************/
 
 .piece {
+  width: min(64px, 5vw);
+  height: min(64px, 5vw);
   margin: 0;
-  width: min(200px, 10vw);
-  height: min(200px, 10vw);
   padding: 0px;
   
   position: absolute;
