@@ -3,19 +3,13 @@
 \******************/
 
 .square {
-  margin: 0;
   width: min(200px, 10vw);
   height: min(200px, 10vw);
+  margin: 0;
   padding: 0px;
+  display: inline;
 }
 
-.light {
-  background-image: url('../files/chess/LightSquare.png');
-}
-
-.dark {
-  background-image: url('../files/chess/DarkSquare.png');
-}
 
 /******************\
 | PIECE FORMATTING |
@@ -28,8 +22,4 @@
   padding: 0px;
   
   position: absolute;
-}
-
-.blackking {
-  background-image: url('../files/chess/BlackKing.png');
 }
