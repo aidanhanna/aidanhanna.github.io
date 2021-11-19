@@ -48,12 +48,12 @@
 }
 
 #blackbishop1 {
-  margin-left: min(128px, 15vw);
+  margin-left: min(128px, 10vw);
   margin-top: 0px;
 }
 
 #blackking {
-  margin-left: min(192px, 10vw);
+  margin-left: min(192px, 15vw);
   margin-top: 0px;
 }
 
@@ -89,31 +89,31 @@
 }
 
 #blackpawn3 {
-  margin-left: min(128px, 5vw);
+  margin-left: min(128px, 10vw);
   margin-top: min(64px, 5vw);
 }
 
 #blackpawn4 {
-  margin-left: min(192px, 5vw);
+  margin-left: min(192px, 15vw);
   margin-top: min(64px, 5vw);
 }
 
 #blackpawn5 {
-  margin-left: min(256px, 5vw);
+  margin-left: min(256px, 20vw);
   margin-top: min(64px, 5vw);
 }
 
 #blackpawn6 {
-  margin-left: min(320px, 5vw);
+  margin-left: min(320px, 25vw);
   margin-top: min(64px, 5vw);
 }
 
 #blackpawn7 {
-  margin-left: min(384px, 5vw);
+  margin-left: min(384px, 30vw);
   margin-top: min(64px, 5vw);
 }
 
 #blackpawn8 {
-  margin-left: min(448px, 5vw);
+  margin-left: min(448px, 35vw);
   margin-top: min(64px, 5vw);
 }
