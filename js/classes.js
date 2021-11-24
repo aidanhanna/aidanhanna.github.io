@@ -19,7 +19,7 @@ function toggleCourses(semester, id, type) {
   //out.textContent = "#" + id + ", " + courses[semester][id] + ", " + courses[semester]["semester"];
   
   //for toggling a single class
-  if (type === 'course')
+  if (type == 'course')
   {
     //find course to toggle
     let course = document.querySelector("#" + id);
@@ -39,7 +39,7 @@ function toggleCourses(semester, id, type) {
   }
   
   //for toggling a whole semester
-  else if (type === 'semester')
+  else if (type == 'semester')
   {    
     //find semester to toggle
     let sem = document.querySelector("#" + id);
