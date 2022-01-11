@@ -6,7 +6,7 @@
 //'true' is visible, 'false' is hidden
 let courses = {"F20": { "semester": false, "ECSE1010": false, "CSCI1100": false, "IHSS1972": false, "MATH2010": false, "MATH2400": false },
                "S21": { "semester": false, "ECSE2010": false, "ENGR2350": false, "CSCI1200": false, "ECSE2500": false, "PHYS1200": false },
-               "F21": { "semester": false, "ECSE1010": false, "CSCI1100": false, "IHSS1972": false, "MATH2010": false, "MATH2400": false },
+               "F21": { "semester": false, "ECSE4480": false, "ECSE2610": false, "ECSE2210": false, "ECSE2100": false, "CSCI2200": false, "ENGR1400": false },
                "S22": { "semester": false}};
               
 
