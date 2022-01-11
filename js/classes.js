@@ -47,24 +47,21 @@ function toggleCourses(semester, id, type) {
     //set height to change visibility
     if (courses[semester]["semester"])
     {
-      sem.style.height = "0px";//hide all classes (if open)
-      out.textContent = "hidden";
+      sem.style.height = "0px";
+      
+      //hide all classes 
       /*
       for (let courseID in courses[semester])
       {
-        if (courses[semester][courseID]) //if open
-        {
-          let course = document.querySelector("#" + id);
-          course.style.height = "0px";
-          courses[semester][courseID] = !courses[semester][courseID];
-        }
+        let course = document.querySelector("#" + id);
+        course.style.height = "0px";
+        courses[semester][courseID] = !courses[semester][courseID];
       }
       */
     }
     else
     {
       sem.style.height = "auto";
-      out.textContent = "unhidden";
     }
     
     //update state
