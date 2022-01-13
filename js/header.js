@@ -149,6 +149,37 @@ class Header extends HTMLElement {
           white-space: nowrap;
           cursor: pointer;
         }
+        
+        /************************\
+        | FORMAT OF IMAGE BANNER |
+        \************************/
+        
+        .image-banner {
+          position: relative;
+          max-width: 100vw;
+          /*background-color: #3282C8;*/
+          text-align: center;
+  
+          padding: 0px;
+          margin: 0px;
+        }
+
+        .banner-text {
+          position: absolute;
+          top: 5vw;
+          left: 50%;
+          transform: translate(-50%, -50%);
+            
+          width: 100vw;
+          text-align: center;
+          color: #F0F0F0;
+          font-size: 7.5vw;
+        }
+
+        .banner-image {
+          width: 100vw;
+          height: auto;
+        }
       </style>
       
       <div class='button-bar'>
@@ -224,50 +255,8 @@ class Header extends HTMLElement {
         </div>
 
       </div>
-    `;
-  }
-}
-
-customElements.define('custom-header', Header);
-
-
-
-class Banner extends HTMLElement {
-  constructor() {
-    super();
-  }
-
-  connectedCallback() {
-    this.innerHTML = `
-      <style>
-        .image-banner {
-          position: relative;
-          max-width: 100vw;
-          /*background-color: #3282C8;*/
-          text-align: center;
-  
-          padding: 0px;
-          margin: 0px;
-        }
-
-        .banner-text {
-          position: absolute;
-          top: 5vw;
-          left: 50%;
-          transform: translate(-50%, -50%);
-            
-          width: 100vw;
-          text-align: center;
-          color: #F0F0F0;
-          font-size: 7.5vw;
-        }
-
-        .banner-image {
-          width: 100vw;
-          height: auto;
-        }
-      </style>
-
+      
+      
       <div class='image-banner'>
         <img src='../images/OkayishBackground.png' class='banner-image'>
       </div>
@@ -275,4 +264,4 @@ class Banner extends HTMLElement {
   }
 }
 
-customElements.define('banner', Banner);
+customElements.define('custom-header', Header);
