@@ -164,18 +164,6 @@ class Header extends HTMLElement {
           margin: 0px;
         }
 
-        .banner-text {
-          position: absolute;
-          top: 5vw;
-          left: 50%;
-          transform: translate(-50%, -50%);
-            
-          width: 100vw;
-          text-align: center;
-          color: #F0F0F0;
-          font-size: 7.5vw;
-        }
-
         .banner-image {
           width: 100vw;
           height: auto;
