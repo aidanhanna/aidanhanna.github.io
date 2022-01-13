@@ -269,7 +269,7 @@ class Banner extends HTMLElement {
       </style>
 
       <div class='image-banner'>
-        <img src='./images/OkayishBackground.png' class='banner-image'>
+        <img src='../images/OkayishBackground.png' class='banner-image'>
       </div>
     `;
   }
