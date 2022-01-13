@@ -13,34 +13,6 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <style>
-        .image-banner {
-          position: relative;
-          max-width: 100vw;
-          /*background-color: #3282C8;*/
-          text-align: center;
-  
-          padding: 0px;
-          margin: 0px;
-        }
-
-        .banner-text {
-          position: absolute;
-          top: 5vw;
-          left: 50%;
-          transform: translate(-50%, -50%);
-            
-          width: 100vw;
-          text-align: center;
-          color: #F0F0F0;
-          font-size: 7.5vw;
-        }
-
-        .banner-image {
-          width: 100vw;
-          height: auto;
-        }
-
-
         /**********************\
         | FORMAT OF BUTTON BAR |
         \**********************/
@@ -178,6 +150,7 @@ class Header extends HTMLElement {
           cursor: pointer;
         }
       </style>
+      
       <div class='button-bar'>
         <img class='menu-toggle' src='./images/badMenuButton.png' onclick='toggleMenu()'>
 
@@ -251,13 +224,55 @@ class Header extends HTMLElement {
         </div>
 
       </div>
-
-      <div class='image-banner'>
-        <img src='./images/OkayishBackground.png' class='banner-image'>
-        <h1 class='banner-text'>Home</h1>
-      </div>
     `;
   }
 }
 
 customElements.define('custom-header', Header);
+
+
+
+class Banner extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
+      <style>
+        .image-banner {
+          position: relative;
+          max-width: 100vw;
+          /*background-color: #3282C8;*/
+          text-align: center;
+  
+          padding: 0px;
+          margin: 0px;
+        }
+
+        .banner-text {
+          position: absolute;
+          top: 5vw;
+          left: 50%;
+          transform: translate(-50%, -50%);
+            
+          width: 100vw;
+          text-align: center;
+          color: #F0F0F0;
+          font-size: 7.5vw;
+        }
+
+        .banner-image {
+          width: 100vw;
+          height: auto;
+        }
+      </style>
+
+      <div class='image-banner'>
+        <img src='./images/OkayishBackground.png' class='banner-image'>
+      </div>
+    `;
+  }
+}
+
+customElements.define('banner', Banner);
