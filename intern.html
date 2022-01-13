@@ -4,96 +4,12 @@
   <head>
     <!--Need to include any fonts here-->
     <link rel='stylesheet' href='./css/stylesheet.css'>
+    <script src='./js/header.js'></script> 
   </head>
   <body>
-    <div class='button-bar'>
-      <img class='menu-toggle' src='./images/badMenuButton.png' onclick='toggleMenu()'>
-      
-      <div class='name-button'>
-        <div class='name-wrapper'>
-          <a class='name-text'>Aidan Hanna</a>
-        </div>
-      </div>
-      
-      <div class='header-button' id='about-button'>
-        <div class='button-wrapper'>
-          <a class='button-text' id='about-text' onclick='toggleAbout()'>About</a>
-          <!--<img class='dropdown-image' src='./images/badDropdown.png'>-->
-        </div>
-        <div class='button-list' id='about-list'>
-          <div class='subbutton'>
-            <div class='subbutton-wrapper'>
-              <a class='subbutton-text' href='./index.html'>About Me</a>
-            </div>
-          </div>
-          <div class='subbutton'>
-            <div class='subbutton-wrapper'>
-              <a class='subbutton-text' href='./website.html'>About This Website</a> 
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class='header-button' id='education-button'>
-        <div class='button-wrapper'>
-          <a class='button-text' id='education-text' onclick='toggleEd()'>Education</a>
-        </div>
-        <div class='button-list' id='education-list'>
-          <div class='subbutton'>
-            <div class='subbutton-wrapper'>
-              <a class='subbutton-text' href='./classes.html'>Classes</a>
-            </div>
-          </div>
-          <div class='subbutton'>
-            <div class='subbutton-wrapper'>
-              <a class='subbutton-text' href='./eleceng.html'>Electrical Engineering</a>
-            </div>
-          </div>
-          <div class='subbutton'>
-            <div class='subbutton-wrapper'>
-              <a class='subbutton-text' href='./compsci.html'>Computer Science</a>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-      <div class='header-button' id='experience-button'>
-        <div class='button-wrapper'>
-          <a class='button-text' id='experience-text' onclick='toggleExp()'>Experience</a>
-        </div>
-        <div class='button-list' id='experience-list'>
-          <div class='subbutton'>
-            <div class='subbutton-wrapper'>
-              <a class='subbutton-text' href='./intern.html'>Internships</a>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-      <div class='header-button' id='interest-button'>
-        <div class='button-wrapper'>
-          <a class='button-text' id='interest-text' onclick='toggleInt()'>Interests</a>
-        </div>
-        <div class='button-list' id='interest-list'>
-          <div class='subbutton'>
-            <div class='subbutton-wrapper'>
-              <a class='subbutton-text' href='./game.html'>Game Design</a>
-            </div>
-          </div>
-          <div class='subbutton'>
-            <div class='subbutton-wrapper'>
-              <a class='subbutton-text' href='./crochet.html'>Crochet</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-        
-    <div class='image-banner'>
-      <img src='./images/OkayishBackground.png' class='banner-image'>
-      <h1 class='banner-text'>Internships</h1>
-    </div>
+    <custom-header></custom-header>
+    <h1 class='banner-text'>Internships</h1>
+    
     <div class='main-body'>
       <p>The current info is: <span class="output"></span></p>
     </div>
