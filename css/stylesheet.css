@@ -63,7 +63,7 @@ p {
 
 .banner-text {
   position: absolute;
-  top: 5vw;
+  top: calc(50px + 5vw);
   left: 50%;
   transform: translate(-50%, -50%);
   
