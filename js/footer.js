@@ -59,10 +59,55 @@ class Footer extends HTMLElement {
           font-size: 15px;
           color: #555555;
         }
+        
+        .footer-fade {
+          width: auto;
+          height: 2px;
+          
+          position: relative;
+          bottom: 2px;
+          
+          opacity: 0.8;
+          background-color: #EEEEEE;
+        }
 
       </style>
       
-      <div class='footer-buffer'></div>
+      <div class='footer-buffer'>
+        <div class='footer-fade>
+          <div class='footer-fade>
+            <div class='footer-fade>
+              <div class='footer-fade>
+                <div class='footer-fade>
+                  <div class='footer-fade>
+                    <div class='footer-fade>
+                      <div class='footer-fade>
+                        <div class='footer-fade>
+                          <div class='footer-fade>
+                            <div class='footer-fade>
+                              <div class='footer-fade>
+                                <div class='footer-fade>
+                                  <div class='footer-fade>
+                                    <div class='footer-fade>
+                                      <div class='footer-fade>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div class='footer'>
         <div class='footer-text-wrapper'>
           <a class='footer-text'>Email: aidanhanna125@gmail.com</a>
