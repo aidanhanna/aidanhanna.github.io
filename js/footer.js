@@ -19,12 +19,6 @@ class Footer extends HTMLElement {
         | FORMAT OF FOOTER |
         \******************/
 
-        .footer-buffer {
-          display: block;
-          width: 100vw;
-          height: calc(50px + 5vw);
-        }
-
         .footer {
           position: fixed;
           bottom: 0px;
@@ -59,25 +53,28 @@ class Footer extends HTMLElement {
           font-size: 15px;
           color: #555555;
         }
+
+        .fade-buffer {
+          position: fixed;
+          bottom: 66px;
+          width: 100vw;
+          height: 0px;
+        }
         
         .footer-fade {
           width: auto;
-          height: 2px;
+          height: 0.2vw;
           
           position: relative;
-          bottom: 2px;
+          bottom: 0.2vw;
           
-          opacity: 0.8;
-          background-color: red;
+          opacity: 0.9;
+          background-color: #EEEEEE;
         }
-
       </style>
       
-      <div class='footer-buffer'>
-        
-      </div>
       
-      <div class='footer'>
+      <div class='fade-buffer'>
         <div class='footer-fade'>
           <div class='footer-fade'>
             <div class='footer-fade'>
@@ -94,7 +91,23 @@ class Footer extends HTMLElement {
                                   <div class='footer-fade'>
                                     <div class='footer-fade'>
                                       <div class='footer-fade'>
-                                        <p></p>
+                                        <div class='footer-fade'>
+                                          <div class='footer-fade'>
+                                            <div class='footer-fade'>
+                                              <div class='footer-fade'>
+                                                <div class='footer-fade'>
+                                                  <div class='footer-fade'>
+                                                    <div class='footer-fade'>
+                                                      <div class='footer-fade'>
+                                                        <p></p>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
@@ -111,6 +124,9 @@ class Footer extends HTMLElement {
             </div>
           </div>
         </div>
+      </div>
+      
+      <div class='footer'>
         <div class='footer-text-wrapper'>
           <a class='footer-text'>Email: aidanhanna125@gmail.com</a>
           <a class='footer-text' href='https://www.linkedin.com/in/aidan-hanna' target='_blank' rel='noopener noreferrer'>LinkedIn: https://www.linkedin.com/in/aidan-hanna</a>
