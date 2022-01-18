@@ -90,6 +90,7 @@ class Footer extends HTMLElement {
                                   <div class='footer-fade>
                                     <div class='footer-fade>
                                       <div class='footer-fade>
+                                        <p></p>
                                       </div>
                                     </div>
                                   </div>
