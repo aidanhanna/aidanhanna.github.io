@@ -68,7 +68,7 @@ class Footer extends HTMLElement {
           bottom: 2px;
           
           opacity: 0.8;
-          background-color: #EEEEEE;
+          background-color: red;
         }
 
       </style>
