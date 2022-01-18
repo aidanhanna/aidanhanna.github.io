@@ -74,6 +74,10 @@ class Footer extends HTMLElement {
       </style>
       
       <div class='footer-buffer'>
+        
+      </div>
+      
+      <div class='footer'>
         <div class='footer-fade>
           <div class='footer-fade>
             <div class='footer-fade>
@@ -107,9 +111,6 @@ class Footer extends HTMLElement {
             </div>
           </div>
         </div>
-      </div>
-      
-      <div class='footer'>
         <div class='footer-text-wrapper'>
           <a class='footer-text'>Email: aidanhanna125@gmail.com</a>
           <a class='footer-text' href='https://www.linkedin.com/in/aidan-hanna' target='_blank' rel='noopener noreferrer'>LinkedIn: https://www.linkedin.com/in/aidan-hanna</a>
