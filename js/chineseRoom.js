@@ -3,19 +3,22 @@
 
 
 // Make the DIV element draggable:
-Draggable(document.querySelector(".rule-book-1"));
+Draggable(document.querySelector("#rule-book-1"));
 
 function Draggable(component) {
   let X1 = 0, Y1 = 0, X2 = 0, Y2 = 0;
-  if (document.querySelector(component.className + "handle")) {
+  if (document.querySelector(component.id + "handle")) 
+  {
     // handle will be used to drag if 
-    document.querySelector(component.className + "handle").onmousedown = dragOnClick;
-  } else {
+    document.querySelector(component.id + "handle").onmousedown = dragOnClick;
+  } else 
+  {
     // otherwise drag from anywhere
     component.onmousedown = dragOnClick;
   }
 
-  function dragOnClick(e) {
+  function dragOnClick(e) 
+  {
     e = e || window.event;
     e.preventDefault();
     // get the mouse cursor position at startup:
@@ -26,7 +29,8 @@ function Draggable(component) {
     document.onmousemove = drag;
   }
 
-  function drag(e) {
+  function drag(e) 
+  {
     e = e || window.event;
     e.preventDefault();
     // calculate the new cursor position:
@@ -39,7 +43,8 @@ function Draggable(component) {
     component.style.left = (component.offsetLeft - pos1) + "px";
   }
 
-  function stopDrag() {
+  function stopDrag() 
+  {
     // stop moving when mouse button is released:
     document.onmouseup = null;
     document.onmousemove = null;
