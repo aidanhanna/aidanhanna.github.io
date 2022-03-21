@@ -75,7 +75,7 @@ class Footer extends HTMLElement {
         .footer-spacer {
           position: relative;
           width: auto;
-          height: 5vw;
+          height: 4vw;
         }
       </style>
       
