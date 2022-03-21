@@ -71,9 +71,16 @@ class Footer extends HTMLElement {
           opacity: 0.9;
           background-color: #EEEEEE;
         }
+        
+        .footer-spacer {
+          position: relative;
+          width: auto;
+          height: 5vw;
+        }
       </style>
       
       
+      <div class='footer-spacer'></div>
       <div class='fade-buffer'>
         <div class='footer-fade'>
           <div class='footer-fade'>
