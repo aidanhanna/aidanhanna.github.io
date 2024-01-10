@@ -20,7 +20,7 @@ a single page */
 }
 
 .class-list {
-  height: 0px;
+  height: auto;
   overflow: hidden;
 }
 
